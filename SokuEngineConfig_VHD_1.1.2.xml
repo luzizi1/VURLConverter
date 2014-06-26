@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SearchEngines version="1.2.9" isValid="0">
+    
+    <SearchEngine Name="YouKu">
+        <UrlPaths>
+            <YoukuVideo PageSize="10">http://www.soku.com/search_video/q_%@_orderby_2_page_%@_pagesize_10</YoukuVideo>
+            <YoukuMusic PageSize="10">http://www.soku.com/search_video/q_%@_orderby_2_page_%@_pagesize_10_cateid_95</YoukuMusic>
+            <YoukuMovie PageSize="10">http://www.soku.com/search_video/q_%@_orderby_2_page_%@_pagesize_10_cateid_96</YoukuMovie>
+            <YoukuTV PageSize="10">http://www.soku.com/search_video/q_%@_orderby_2_page_%@_pagesize_10_cateid_97</YoukuTV>
+        </UrlPaths>
+        <Xpaths>
+            <GetList>body//div|class=window//div|class=screen//div|class=body//div|class=maincol//div|class=result//div|id=vcoll//div|class=items//ul|class=v</GetList>
+            <GetLink by="Attribute" value="href">li|class=v_link//a</GetLink>
+            <GetTitle by="Attribute" value="title">li|class=v_title//a</GetTitle>
+            <GetImg by="Attribute" value="src">li|class=v_thumb//img</GetImg>
+            
+            <GetPubUser by="Children" value="value" ChildrenIndex="0">li|class=v_user//a</GetPubUser>
+            <GetPubDate by="Children" value="value" ChildrenIndex="0">li|class=v_pub//span</GetPubDate>
+            <GetPlayCounts by="Children" value="value" ChildrenIndex="0">li|class=v_stat//span|class=num</GetPlayCounts>
+            <GetIsHD>li|class=v_ishd//span|class=ico__HD</GetIsHD>
+            <GetTime by="Children" value="value" ChildrenIndex="0">li|class=v_time//span|class=num</GetTime>
+            
+        </Xpaths>
+        
+    </SearchEngine>
+    
+    <SearchEngine Name="Soku">
+        <UrlPaths>
+            <SokuVideo PageSize="20">http://www.soku.com/v?keyword=%@&amp;orderfield=1&amp;ext=2&amp;curpage=%@&amp;redirect=0</SokuVideo>
+        </UrlPaths>
+        <EnableSources>优酷,,土豆,,新浪,,搜狐,,56</EnableSources>
+        <Xpaths>
+            <GetList>body//div|class=window//div|class=screen//div|class=body//div|class=layout_16//div|class=maincol//div|class=result//div|id=vcoll//div|class=items//ul|class=v</GetList>
+            <GetLink by="Attribute" value="href">li|class=v_link//a</GetLink>
+            <GetTitle by="Attribute" value="title">li|class=v_title//a</GetTitle>
+            <GetImg by="Attribute" value="src">li|class=v_thumb//img</GetImg>
+            <GetPubUser by="Children" value="value" ChildrenIndex="0">li|class=v_user//span</GetPubUser>
+            <GetIsHD>li|class=v_ishd//span|class=ico__HD</GetIsHD>
+            <GetTime by="Children" value="value" ChildrenIndex="0">li|class=v_time//span|class=num</GetTime>
+            <GetSpeed by="Attribute" value="class">li|class=v_speed//div</GetSpeed>
+            
+            
+            <!-- not use -->
+            <GetPubDate by="Children" value="value" ChildrenIndex="0">li|class=v_pub//span</GetPubDate>
+            <!-- not use -->
+            <GetPlayCounts by="Children" value="value" ChildrenIndex="0">li|class=v_stat//span|class=num</GetPlayCounts>
+            
+        </Xpaths>
+        
+    </SearchEngine>
+    
+    <SearchEngine Name="Tudou">
+        <UrlPaths>
+            <TudouVideo PageSize="15">http://so.tudou.com/nisearch/%@/cid_0_time__sort_date_display_table_high_0_page_%@</TudouVideo>
+        </UrlPaths>
+        
+        <Xpaths>
+            <GetList>body//div|class=wrapper//div|class=page_content//div|class=frame frame_2cols//div|class=main_col//div|class=inner_col//div|class=search_result_main//div|class=search_result//div|class=container//ul//li</GetList>
+            <GetLink by="Attribute" value="href">div//div|class=pic//a|class=inner</GetLink>
+            <GetTitle by="Attribute" value="title">div//div|class=txt//h1|class=caption//a</GetTitle>
+            <GetImg by="Attribute" value="src">div//div|class=pic//a|class=inner//img</GetImg>
+            <GetPubUser by="Attribute" value="title">div//div|class=txt//div|class=info//a</GetPubUser>
+            
+            <GetPubDate by="Children" value="value" ChildrenIndex="4">div//div|class=txt//div|class=info</GetPubDate>
+            <GetPlayCounts by="Children" value="value" ChildrenIndex="0">div//div|class=txt//div|class=info//span|class=d_play</GetPlayCounts>
+            <GetIsHD by="Children" value="value" ChildrenIndex="0">div</GetIsHD>
+            <GetTime by="Children" value="value" ChildrenIndex="0">div//div|class=pic//p|class=vinf</GetTime>
+            
+        </Xpaths>
+        
+    </SearchEngine>
+    
+    <VideoUrlConverts>
+        <VideoUrlConvert Name="Youku">
+            <OriURL>
+                <IDCheckerStr value=".youku.com"/>
+                <PrefixChekerStr>
+                    <Value>id_</Value>
+                </PrefixChekerStr>
+                <SuffixChekerStr>
+                    <Value>.html</Value>
+                </SuffixChekerStr>
+                <TargetURLTemplate>
+                    <Value>http://v.youku.com/player/getPlayList/VideoIDS/%@/timezone/+08/version/5/source/video</Value>
+                </TargetURLTemplate>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="JSON">
+                    <Xpaths>
+                        <GetVID by="valueForKey" value="videoid">data//videoid</GetVID>
+                    </Xpaths>	
+                    <ResultURLTemplate>http://v.youku.com/player/getM3U8/vid/%@/type/flv/v.m3u8</ResultURLTemplate>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        <VideoUrlConvert Name="SinaVideo">
+            <OriURL>
+                <IDCheckerStr value=".sina.com"/>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="kCFStringEncodingGB_18030_2000">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>ipad_vid:'</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>',</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://v.iask.com/v_play_ipad.php?vid=%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>?vid=</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>\"</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://v.iask.com/v_play_ipad.php?vid=%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>ipad_vid:</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>,</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://v.iask.com/v_play_ipad.php?vid=%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        <VideoUrlConvert Name="Tudou">
+            <OriURL>
+                <IDCheckerStr value=".tudou_notuse.com"/>
+                <PrefixChekerStr>
+                    <Value>/view/</Value>
+                </PrefixChekerStr>
+                <SuffixChekerStr>
+                    <Value>/?trowNO</Value>
+                </SuffixChekerStr>
+                <TargetURLTemplate>
+                    <Value>http://v.tudou.com/RealtimeDecodeDispatcher/DispatchServlet?code=%@</Value>
+                </TargetURLTemplate>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>"src":"</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>"}</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        <VideoUrlConvert Name="56">
+            <OriURL>
+                <IDCheckerStr value=".56"/>
+                <PrefixChekerStr>
+                    <Value>/v_</Value>
+                </PrefixChekerStr>
+                <SuffixChekerStr>
+                    <Value>.html</Value>
+                </SuffixChekerStr>
+                <TargetURLTemplate>
+                    <Value>http://vxml.56.com/json/%@/?src=out</Value>
+                </TargetURLTemplate>
+            </OriURL>
+            <ReponseHandler>
+                <!--
+                 <Reponse dataType="JSON">
+                 <Xpaths>
+                 <GetVID>info//rfiles</GetVID>
+                 </Xpaths>	
+                 <ResultURLTemplate>%@</ResultURLTemplate>
+                 </Reponse>
+                 -->
+                <Reponse dataType="JSON">
+                    <Xpaths>
+                        <GetVID by="valueForKey" value="videoid">info//vid</GetVID>
+                    </Xpaths>
+                    <ResultURLTemplate>
+                        http://vxml.56.com/m3u8/%@/
+                    </ResultURLTemplate>
+                </Reponse>
+                
+            </ReponseHandler>
+        </VideoUrlConvert>
+        
+        
+        
+        <VideoUrlConvert Name="MYSohuVideo">
+            <OriURL>
+                <IDCheckerStr value="http://my.tv.sohu.com"/>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="kCFStringEncodingGB_18030_2000">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>var vid="</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>";</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://my.tv.sohu.com/ipad/%@.m3u8</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>var vid = "</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>";</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://hot.vrs.sohu.com/ipad%@.m3u8</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>var vid = "</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>";</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://hot.vrs.sohu.com/ipad%@.m3u8</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>_videoId = "</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>";</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://my.tv.sohu.com/ipad/%@.m3u8</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        
+        <VideoUrlConvert Name="SohuVideo">
+            <OriURL>
+                <IDCheckerStr value="http://m.tv.sohu.com"/>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="kCFStringEncodingGB_18030_2000">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>var vid="</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>";</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://hot.vrs.sohu.com/ipad%@.m3u8</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>var vid = "</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>";</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://hot.vrs.sohu.com/ipad%@.m3u8</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>_videoId = "</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>";</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://my.tv.sohu.com/ipad/%@.m3u8</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        
+        <VideoUrlConvert Name="M_SohuVideo">
+            <OriURL>
+                <IDCheckerStr value="http://m.tv.sohu.com_RemoveLater"/>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>class="minibar">&lt;ahref="</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>"class="view"</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        
+        <VideoUrlConvert Name="Qiyi">
+            <OriURL>
+                <IDCheckerStr value="qiyi."/>
+                <!-- use the ori url -->
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>videoId : "</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>",</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://cache.video.qiyi.com/m/%@/</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>,"url":"</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>","</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        
+        
+        <VideoUrlConvert Name="LeTV">
+            <OriURL>
+                <IDCheckerStr value="letv."/>
+                <!-- use the ori url -->
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        
+                        <PrefixChekerStr>
+                            <Value>vid:</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>,</Value>
+                        </SuffixChekerStr>
+                        
+                        <PrefixChekerStr>
+                            <Value>pid:</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>,</Value>
+                        </SuffixChekerStr>
+                        
+                        <TargetURLTemplate>
+                            <Value>http://ipad.letv.com/play.php?id=%@&amp;vid=%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>tabindex="0" src="</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>" autoplay</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        
+        <VideoUrlConvert Name="CNTV">
+            <OriURL>
+                <IDCheckerStr value=".cntv.c"/>
+                <PrefixChekerStr>
+                    <Value>/v-</Value>
+                </PrefixChekerStr>
+                <SuffixChekerStr>
+                    <Value>.html</Value>
+                </SuffixChekerStr>
+                <TargetURLTemplate>
+                    <Value>http://xiyou.cntv.cn/interface/index?varname=_xyVideoData_&amp;showpath=1&amp;videoId=%@</Value>
+                </TargetURLTemplate>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>{"url":"</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>",</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        
+        <VideoUrlConvert Name="SinaWeiboShortLink">
+            <OriURL>
+                <IDCheckerStr value="t.cn/"/>
+                <PrefixChekerStr>
+                    <Value>t.cn/</Value>
+                </PrefixChekerStr>
+                <SuffixChekerStr>
+                    <Value>?</Value>
+                </SuffixChekerStr>
+                <TargetURLTemplate>
+                    <Value>http://weibo.com/mblog/sinaurl_info.php?url=%@&amp;lang=zh</Value>
+                </TargetURLTemplate>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse>
+                    <ResultURLTemplate>http://api.t.sina.com.cn/widget/show.jsonp?source=1794918915&amp;short_url=%@&amp;lang=zh_cn&amp;jsonp=ExcuteFun&amp;mid=&amp;vers=3&amp;template_name=html5</ResultURLTemplate>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        
+        <VideoUrlConvert Name="SinaWeiboWidgetApi">
+            <OriURL>
+                <IDCheckerStr value="http://api.t.sina.com.cn/widget"/>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>result":"</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>"});</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        
+        
+        
+    </VideoUrlConverts>
+    
+</SearchEngines>
