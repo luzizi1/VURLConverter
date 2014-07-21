@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.3.3" isValid="0">
+<SearchEngines version="1.3.5" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -433,25 +433,46 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-        
+        <!--
+         <VideoUrlConvert Name="CNTV">
+         <OriURL>
+         <IDCheckerStr value=".cntv.c"/>
+         <PrefixChekerStr>
+         <Value>/v-</Value>
+         </PrefixChekerStr>
+         <SuffixChekerStr>
+         <Value>.html</Value>
+         </SuffixChekerStr>
+         <TargetURLTemplate>
+         <Value>http://xiyou.cntv.cn/interface/index?varname=_xyVideoData_&amp;showpath=1&amp;videoId=%@</Value>
+         </TargetURLTemplate>
+         </OriURL>
+         <ReponseHandler>
+         <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+         <Tyies>
+         <PrefixChekerStr>
+         <Value>{"url":"</Value>
+         </PrefixChekerStr>
+         <SuffixChekerStr>
+         <Value>",</Value>
+         </SuffixChekerStr>
+         <TargetURLTemplate>
+         <Value>%@</Value>
+         </TargetURLTemplate>
+         </Tyies>
+         </Reponse>
+         </ReponseHandler>
+         </VideoUrlConvert>
+         -->
         <VideoUrlConvert Name="CNTV">
             <OriURL>
                 <IDCheckerStr value=".cntv.c"/>
-                <PrefixChekerStr>
-                    <Value>/v-</Value>
-                </PrefixChekerStr>
-                <SuffixChekerStr>
-                    <Value>.html</Value>
-                </SuffixChekerStr>
-                <TargetURLTemplate>
-                    <Value>http://xiyou.cntv.cn/interface/index?varname=_xyVideoData_&amp;showpath=1&amp;videoId=%@</Value>
-                </TargetURLTemplate>
             </OriURL>
             <ReponseHandler>
                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
                     <Tyies>
                         <PrefixChekerStr>
-                            <Value>{"url":"</Value>
+                            <Value>"hls4":"</Value>
                         </PrefixChekerStr>
                         <SuffixChekerStr>
                             <Value>",</Value>
