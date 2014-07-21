@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.3.0" isValid="0">
+<SearchEngines version="1.3.3" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -88,7 +88,7 @@
                 <Reponse dataType="JSON">
                     <Xpaths>
                         <GetVID by="valueForKey" value="videoid">data//videoid</GetVID>
-                    </Xpaths>	
+                    </Xpaths>
                     <ResultURLTemplate>http://v.youku.com/player/getM3U8/vid/%@/type/flv/v.m3u8</ResultURLTemplate>
                 </Reponse>
             </ReponseHandler>
@@ -135,35 +135,71 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
+        
+        <!--
+         <VideoUrlConvert Name="Tudou">
+         <OriURL>
+         <IDCheckerStr value=".tudou_notuse.com"/>
+         <PrefixChekerStr>
+         <Value>/view/</Value>
+         </PrefixChekerStr>
+         <SuffixChekerStr>
+         <Value>/?trowNO</Value>
+         </SuffixChekerStr>
+         <TargetURLTemplate>
+         <Value>http://v.tudou.com/RealtimeDecodeDispatcher/DispatchServlet?code=%@</Value>
+         </TargetURLTemplate>
+         </OriURL>
+         <ReponseHandler>
+         <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+         <Tyies>
+         <PrefixChekerStr>
+         <Value>"src":"</Value>
+         </PrefixChekerStr>
+         <SuffixChekerStr>
+         <Value>"}</Value>
+         </SuffixChekerStr>
+         <TargetURLTemplate>
+         <Value>%@</Value>
+         </TargetURLTemplate>
+         </Tyies>
+         </Reponse>
+         </ReponseHandler>
+         </VideoUrlConvert>
+         -->
         <VideoUrlConvert Name="Tudou">
             <OriURL>
-                <IDCheckerStr value=".tudou_notuse.com"/>
-                <PrefixChekerStr>
-                    <Value>/view/</Value>
-                </PrefixChekerStr>
-                <SuffixChekerStr>
-                    <Value>/?trowNO</Value>
-                </SuffixChekerStr>
-                <TargetURLTemplate>
-                    <Value>http://v.tudou.com/RealtimeDecodeDispatcher/DispatchServlet?code=%@</Value>
-                </TargetURLTemplate>
+                <IDCheckerStr value="fengyunzhibo.com"/>
             </OriURL>
             <ReponseHandler>
                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
                     <Tyies>
                         <PrefixChekerStr>
-                            <Value>"src":"</Value>
+                            <Value>video src='</Value>
                         </PrefixChekerStr>
                         <SuffixChekerStr>
-                            <Value>"}</Value>
+                            <Value>' id="html5-player"</Value>
                         </SuffixChekerStr>
                         <TargetURLTemplate>
                             <Value>%@</Value>
                         </TargetURLTemplate>
                     </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>iosPlayURL: '</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>',</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
+        
         <VideoUrlConvert Name="56">
             <OriURL>
                 <IDCheckerStr value=".56"/>
@@ -182,7 +218,7 @@
                  <Reponse dataType="JSON">
                  <Xpaths>
                  <GetVID>info//rfiles</GetVID>
-                 </Xpaths>	
+                 </Xpaths>
                  <ResultURLTemplate>%@</ResultURLTemplate>
                  </Reponse>
                  -->
@@ -448,6 +484,7 @@
             </ReponseHandler>
         </VideoUrlConvert>
         
+        
         <VideoUrlConvert Name="SinaWeiboWidgetApi"> <!-- for tvplayer -->
             <OriURL>
                 <IDCheckerStr value="http://58.55.127.14/proxy/letv"/>
@@ -471,27 +508,27 @@
         </VideoUrlConvert>
         
         <!--
-        <VideoUrlConvert Name="SinaWeiboWidgetApi">
-            <OriURL>
-                <IDCheckerStr value="http://api.t.sina.com.cn/widget"/>
-            </OriURL>
-            <ReponseHandler>
-                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
-                    <Tyies>
-                        <PrefixChekerStr>
-                            <Value>result":"</Value>
-                        </PrefixChekerStr>
-                        <SuffixChekerStr>
-                            <Value>"});</Value>
-                        </SuffixChekerStr>
-                        <TargetURLTemplate>
-                            <Value>%@</Value>
-                        </TargetURLTemplate>
-                    </Tyies>
-                </Reponse>
-            </ReponseHandler>
-        </VideoUrlConvert>
-        -->
+         <VideoUrlConvert Name="SinaWeiboWidgetApi">
+         <OriURL>
+         <IDCheckerStr value="http://api.t.sina.com.cn/widget"/>
+         </OriURL>
+         <ReponseHandler>
+         <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+         <Tyies>
+         <PrefixChekerStr>
+         <Value>result":"</Value>
+         </PrefixChekerStr>
+         <SuffixChekerStr>
+         <Value>"});</Value>
+         </SuffixChekerStr>
+         <TargetURLTemplate>
+         <Value>%@</Value>
+         </TargetURLTemplate>
+         </Tyies>
+         </Reponse>
+         </ReponseHandler>
+         </VideoUrlConvert>
+         -->
         
         
     </VideoUrlConverts>
