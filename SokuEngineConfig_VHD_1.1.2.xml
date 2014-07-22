@@ -481,6 +481,28 @@
                             <Value>%@</Value>
                         </TargetURLTemplate>
                     </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>ipad":"</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>",</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>iphone":"</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>",</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
@@ -508,7 +530,7 @@
         
         <VideoUrlConvert Name="SinaWeiboWidgetApi"> <!-- for tvplayer -->
             <OriURL>
-                <IDCheckerStr value="http://58.55.127.14/proxy/letv"/>
+                <IDCheckerStr value="/proxy/letv"/>
                 <!-- use the ori url -->
             </OriURL>
             <ReponseHandler>
