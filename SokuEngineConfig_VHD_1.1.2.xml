@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.3.8" isValid="0">
+<SearchEngines version="1.3.9" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -333,6 +333,7 @@
             </ReponseHandler>
         </VideoUrlConvert>
         
+        <!--
         <VideoUrlConvert Name="M_SohuVideo">
             <OriURL>
                 <IDCheckerStr value="http://m.tv.sohu.com_RemoveLater"/>
@@ -345,6 +346,27 @@
                         </PrefixChekerStr>
                         <SuffixChekerStr>
                             <Value>"class="view"</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+         -->
+        <VideoUrlConvert Name="M_SohuVideo">
+            <OriURL>
+                <IDCheckerStr value="allook.cn"/>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>&lt;SDUrl&gt;</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>&lt;/SDUrl&gt;</Value>
                         </SuffixChekerStr>
                         <TargetURLTemplate>
                             <Value>%@</Value>
