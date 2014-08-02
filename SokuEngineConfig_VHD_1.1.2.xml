@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.3.9" isValid="0">
+<SearchEngines version="1.4.0" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -235,7 +235,7 @@
         </VideoUrlConvert>
         
         
-        
+        <!--
         <VideoUrlConvert Name="MYSohuVideo">
             <OriURL>
                 <IDCheckerStr value="http://my.tv.sohu.com"/>
@@ -289,7 +289,29 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
+        -->
         
+        <VideoUrlConvert Name="MYSohuVideo">
+            <OriURL>
+                <IDCheckerStr value="allook.cn"/>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>&lt;SDUrl&gt;</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>&lt;/SDUrl&gt;</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+         
         <VideoUrlConvert Name="SohuVideo">
             <OriURL>
                 <IDCheckerStr value="http://m.tv.sohu.com"/>
@@ -333,8 +355,7 @@
             </ReponseHandler>
         </VideoUrlConvert>
         
-        <!--
-        <VideoUrlConvert Name="M_SohuVideo">
+         <VideoUrlConvert Name="M_SohuVideo">
             <OriURL>
                 <IDCheckerStr value="http://m.tv.sohu.com_RemoveLater"/>
             </OriURL>
@@ -354,28 +375,7 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-         -->
-        <VideoUrlConvert Name="M_SohuVideo">
-            <OriURL>
-                <IDCheckerStr value="allook.cn"/>
-            </OriURL>
-            <ReponseHandler>
-                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
-                    <Tyies>
-                        <PrefixChekerStr>
-                            <Value>&lt;SDUrl&gt;</Value>
-                        </PrefixChekerStr>
-                        <SuffixChekerStr>
-                            <Value>&lt;/SDUrl&gt;</Value>
-                        </SuffixChekerStr>
-                        <TargetURLTemplate>
-                            <Value>%@</Value>
-                        </TargetURLTemplate>
-                    </Tyies>
-                </Reponse>
-            </ReponseHandler>
-        </VideoUrlConvert>
-        
+         
         <VideoUrlConvert Name="Qiyi">
             <OriURL>
                 <IDCheckerStr value="qiyi."/>
