@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.4.2" isValid="0">
+<SearchEngines version="1.4.5" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -300,16 +300,16 @@
         
         <VideoUrlConvert Name="MYSohuVideo">
             <OriURL>
-                <IDCheckerStr value="allook.cn"/>
+                <IDCheckerStr value="mrhso.com"/>
             </OriURL>
             <ReponseHandler>
                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
                     <Tyies>
                         <PrefixChekerStr>
-                            <Value>&lt;SDUrl&gt;</Value>
+                            <Value>&lt;video style="height: 600px;width:100%" src="</Value>
                         </PrefixChekerStr>
                         <SuffixChekerStr>
-                            <Value>&lt;/SDUrl&gt;</Value>
+                            <Value>"</Value>
                         </SuffixChekerStr>
                         <TargetURLTemplate>
                             <Value>%@</Value>
