@@ -199,7 +199,7 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-        
+        <!--
         <VideoUrlConvert Name="56">
             <OriURL>
                 <IDCheckerStr value=".56"/>
@@ -214,14 +214,7 @@
                 </TargetURLTemplate>
             </OriURL>
             <ReponseHandler>
-                <!--
-                 <Reponse dataType="JSON">
-                 <Xpaths>
-                 <GetVID>info//rfiles</GetVID>
-                 </Xpaths>
-                 <ResultURLTemplate>%@</ResultURLTemplate>
-                 </Reponse>
-                 -->
+         
                 <Reponse dataType="JSON">
                     <Xpaths>
                         <GetVID by="valueForKey" value="videoid">info//vid</GetVID>
@@ -231,6 +224,20 @@
                     </ResultURLTemplate>
                 </Reponse>
                 
+            </ReponseHandler>
+        </VideoUrlConvert>
+        -->
+        <VideoUrlConvert Name="56">
+            <OriURL>
+                <IDCheckerStr value="cnlivetv.com"/>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="JSON">
+                    <Xpaths>
+                        <GetVID by="valueForKey" value="videoid">url</GetVID>
+                    </Xpaths>
+                    <ResultURLTemplate>%@</ResultURLTemplate>
+                </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
         
@@ -376,8 +383,7 @@
             </ReponseHandler>
         </VideoUrlConvert>
          
-         <!--
-        <VideoUrlConvert Name="Qiyi">
+         <VideoUrlConvert Name="Qiyi">
             <OriURL>
                 <IDCheckerStr value="qiyi."/>
             </OriURL>
@@ -410,27 +416,6 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-        -->
-         <VideoUrlConvert Name="Qiyi">
-             <OriURL>
-                 <IDCheckerStr value="cnlivetv.com"/>
-             </OriURL>
-             <ReponseHandler>
-                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
-                     <Tyies>
-                         <PrefixChekerStr>
-                             <Value>"url":"</Value>
-                         </PrefixChekerStr>
-                         <SuffixChekerStr>
-                             <Value>",</Value>
-                         </SuffixChekerStr>
-                         <TargetURLTemplate>
-                             <Value>%@/</Value>
-                         </TargetURLTemplate>
-                     </Tyies>
-                 </Reponse>
-             </ReponseHandler>
-         </VideoUrlConvert>
         
         <VideoUrlConvert Name="LeTV">
             <OriURL>
