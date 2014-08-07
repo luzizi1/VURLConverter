@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.5.1" isValid="0">
+<SearchEngines version="1.5.2" isValid="0">
     
      <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -423,17 +423,30 @@
             </OriURL>
             <ReponseHandler>
                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    
                     <Tyies>
                         <PrefixChekerStr>
-                            <Value></Value>
+                            <Value>encodeURIComponent('</Value>
                         </PrefixChekerStr>
                         <SuffixChekerStr>
-                            <Value>]]</Value>
+                            <Value>')</Value>
                         </SuffixChekerStr>
                         <TargetURLTemplate>
                             <Value>%@</Value>
                         </TargetURLTemplate>
                     </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>video=['</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>'</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
@@ -445,10 +458,11 @@
             <ReponseHandler>
                 <Reponse dataType="JSON">
                     <Xpaths>
-                        <GetVID by="valueForKey" value="videoid">data//videoid</GetVID>
+                        <GetVID by="valueForKey" value="videoid">url</GetVID>
                     </Xpaths>
                     <ResultURLTemplate>%@</ResultURLTemplate>
                 </Reponse>
+                
             </ReponseHandler>
         </VideoUrlConvert>
         
