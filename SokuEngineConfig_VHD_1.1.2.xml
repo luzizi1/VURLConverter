@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.4.6" isValid="0">
+<SearchEngines version="1.4.7" isValid="0">
     
-    <!--
-    <SearchEngine Name="YouKu">
+     <SearchEngine Name="YouKu">
         <UrlPaths>
             <YoukuVideo PageSize="10">http://www.soku.com/search_video/q_%@_orderby_2_page_%@_pagesize_10</YoukuVideo>
             <YoukuMusic PageSize="10">http://www.soku.com/search_video/q_%@_orderby_2_page_%@_pagesize_10_cateid_95</YoukuMusic>
@@ -69,8 +68,7 @@
         
     </SearchEngine>
      
-     -->
-    
+     
     <VideoUrlConverts>
         <VideoUrlConvert Name="Youku">
             <OriURL>
