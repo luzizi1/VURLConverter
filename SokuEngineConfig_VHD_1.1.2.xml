@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.4.7" isValid="0">
+<SearchEngines version="1.4.8" isValid="0">
     
      <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -92,10 +92,10 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-        
+        <!--
         <VideoUrlConvert Name="SinaVideo">
             <OriURL>
-                <IDCheckerStr value="app.com"/> <!--php250.duapp.com,1.phpku.vipsinaapp.com -->
+                <IDCheckerStr value="app.com"/>
             </OriURL>
             <ReponseHandler>
                 <Reponse dataType="STRING" encode="kCFStringEncodingGB_18030_2000">
@@ -125,7 +125,7 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-        <!--
+        -->
         <VideoUrlConvert Name="SinaVideo">
             <OriURL>
                 <IDCheckerStr value=".sina.com"/>
