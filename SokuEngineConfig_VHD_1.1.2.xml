@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.4.5" isValid="0">
+<SearchEngines version="1.4.6" isValid="0">
     
+    <!--
     <SearchEngine Name="YouKu">
         <UrlPaths>
             <YoukuVideo PageSize="10">http://www.soku.com/search_video/q_%@_orderby_2_page_%@_pagesize_10</YoukuVideo>
@@ -38,16 +39,14 @@
             <GetIsHD>li|class=v_ishd//span|class=ico__HD</GetIsHD>
             <GetTime by="Children" value="value" ChildrenIndex="0">li|class=v_time//span|class=num</GetTime>
             <GetSpeed by="Attribute" value="class">li|class=v_speed//div</GetSpeed>
-            
-            
-            <!-- not use -->
-            <GetPubDate by="Children" value="value" ChildrenIndex="0">li|class=v_pub//span</GetPubDate>
-            <!-- not use -->
-            <GetPlayCounts by="Children" value="value" ChildrenIndex="0">li|class=v_stat//span|class=num</GetPlayCounts>
+     
+             <GetPubDate by="Children" value="value" ChildrenIndex="0">li|class=v_pub//span</GetPubDate>
+             <GetPlayCounts by="Children" value="value" ChildrenIndex="0">li|class=v_stat//span|class=num</GetPlayCounts>
             
         </Xpaths>
         
     </SearchEngine>
+     
     
     <SearchEngine Name="Tudou">
         <UrlPaths>
@@ -69,6 +68,8 @@
         </Xpaths>
         
     </SearchEngine>
+     
+     -->
     
     <VideoUrlConverts>
         <VideoUrlConvert Name="Youku">
@@ -93,6 +94,40 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
+        
+        <VideoUrlConvert Name="SinaVideo">
+            <OriURL>
+                <IDCheckerStr value="app.com"/> <!--php250.duapp.com,1.phpku.vipsinaapp.com -->
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="kCFStringEncodingGB_18030_2000">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>encodeURIComponent('</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>')</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>video=['</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>'</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                    
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        <!--
         <VideoUrlConvert Name="SinaVideo">
             <OriURL>
                 <IDCheckerStr value=".sina.com"/>
@@ -135,6 +170,7 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
+         -->
         
         <!--
          <VideoUrlConvert Name="Tudou">
@@ -361,7 +397,7 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-        
+        <!-- not use this ,can reomve
          <VideoUrlConvert Name="M_SohuVideo">
             <OriURL>
                 <IDCheckerStr value="http://m.tv.sohu.com_RemoveLater"/>
@@ -382,6 +418,7 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
+         -->
          
          <VideoUrlConvert Name="Qiyi">
             <OriURL>
@@ -547,6 +584,7 @@
             </ReponseHandler>
         </VideoUrlConvert>
         
+        <!-- not use now, for json,specail
         <VideoUrlConvert Name="SinaWeiboShortLink">
             <OriURL>
                 <IDCheckerStr value="t.cn/"/>
@@ -566,6 +604,7 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
+         -->
         
         
         <VideoUrlConvert Name="SinaWeiboWidgetApi"> <!-- for tvplayer -->
