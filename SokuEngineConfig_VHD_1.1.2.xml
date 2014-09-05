@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.6.0" isValid="0">
+<SearchEngines version="1.5.9" isValid="0">
     
      <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -202,10 +202,10 @@
                  <IDCheckerStr value="http://vdn.apps.cntv.cn/api2/live.do"/>
              </OriURL>
              <ReponseHandler>
-                  <Reponse dataType="STRING" encode="kCFStringEncodingGB_18030_2000">
+                 <Reponse dataType="STRING" encode="kCFStringEncodingGB_18030_2000">
                      <Tyies>
                          <PrefixChekerStr>
-                             <Value>"hds2":"</Value>
+                             <Value>"hls2":"</Value>
                          </PrefixChekerStr>
                          <SuffixChekerStr>
                              <Value>",</Value>
@@ -215,7 +215,6 @@
                          </TargetURLTemplate>
                      </Tyies>
                  </Reponse>
-                 
              </ReponseHandler>
          </VideoUrlConvert>
    
