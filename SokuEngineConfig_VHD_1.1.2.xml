@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.6.0" isValid="0">
+<SearchEngines version="1.6.1" isValid="0">
     
      <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -181,6 +181,17 @@
             </OriURL>
             <ReponseHandler>
                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                            <PrefixChekerStr>
+                                <Value>width:100%" src="</Value>
+                            </PrefixChekerStr>
+                            <SuffixChekerStr>
+                                <Value>"</Value>
+                            </SuffixChekerStr>
+                            <TargetURLTemplate>
+                                <Value>%@</Value>
+                            </TargetURLTemplate>
+                    </Tyies>
                     <Tyies>
                         <PrefixChekerStr>
                             <Value>&lt;video style="height: 600px;width:100%" src="</Value>
