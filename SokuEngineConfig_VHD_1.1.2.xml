@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.6.3" isValid="0">
+<SearchEngines version="1.6.5" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -70,16 +70,20 @@
     
     
     <SearchEngine Name="TVMAO">
-        
-        <Xpaths>
+         <Xpaths>
             <GetList>body//div|class=page-content clear//div|class=pgmain//div|class=epg mt10 mb10//ul|id=pgrow//li</GetList>
             <GetTime by="Children" value="value" ChildrenIndex="0">span</GetTime>
             <GetTitle by="" value="value" ChildrenIndex="0" BeginIndex="1" EndIndex="3"></GetTitle>
- 
-        </Xpaths>
-        
-    </SearchEngine>
-    
+
+         </Xpaths>
+     </SearchEngine>
+    <SearchEngine Name="CNTVWEB">
+         <Xpaths>
+            <GetList>body//div|class=bg_top_h_tile//div|class=bg_top_owner//div|class=main column_wrapper//div|id=page_body//div|class=column_width//div|class=column_wrapper//div|id=zhibo_main_box//div|class=md_bd//div|id=iDBody1//div|id=zhibo_main//div|id=zhibo_epg//div|class=mo//div|class=mo_bd//div|id=sample_content_0//div|class=bpp//div|id=qh0//div|class=listbox//ul|id=playlist//li</GetList>
+            <GetTime by="Children" value="value" ChildrenIndex="0">a//span</GetTime>
+            <GetTitle by="Attribute" value="title">a</GetTitle>
+         </Xpaths>
+     </SearchEngine>
     
     <VideoUrlConverts>
         <VideoUrlConvert Name="Youku">
@@ -341,7 +345,7 @@
                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
                     <Tyies>
                         <PrefixChekerStr>
-                            <Value>"hls3":"</Value>
+                            <Value>"hds2":"</Value>
                         </PrefixChekerStr>
                         <SuffixChekerStr>
                             <Value>",</Value>
@@ -462,7 +466,7 @@
                     </Tyies>
                     <Tyies>
                         <PrefixChekerStr>
-                            <Value>"hls2":"</Value>
+                            <Value>"hds2":"</Value>
                         </PrefixChekerStr>
                         <SuffixChekerStr>
                             <Value>",</Value>
