@@ -81,7 +81,9 @@
          <Xpaths>
             <GetList>body//div|class=bg_top_h_tile//div|class=bg_top_owner//div|class=main column_wrapper//div|id=page_body//div|class=column_width//div|class=column_wrapper//div|id=zhibo_main_box//div|class=md_bd//div|id=iDBody1//div|id=zhibo_main//div|id=zhibo_epg//div|class=mo//div|class=mo_bd//div|id=sample_content_0//div|class=bpp//div|id=qh0//div|class=listbox//ul|id=playlist//li</GetList>
             <GetTime by="Children" value="value" ChildrenIndex="0">a//span</GetTime>
-            <GetTitle by="Attribute" value="title">a</GetTitle>
+            <GetTime by="Children" value="value" ChildrenIndex="0">span</GetTime>
+            <GetTitle by="Children" value="value" ChildrenIndex="0">a//span|class=sp_3//table//tr//td</GetTitle>
+            <GetTitle by="Children" value="value" ChildrenIndex="0">span|class=sp_3//table//tr//td</GetTitle>
          </Xpaths>
      </SearchEngine>
     
