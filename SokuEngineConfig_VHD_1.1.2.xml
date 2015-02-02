@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.6.5" isValid="0">
+<SearchEngines version="1.6.8" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -436,6 +436,29 @@
             </ReponseHandler>
         </VideoUrlConvert>
         
+        
+        <VideoUrlConvert Name="YunNanTV">
+            <OriURL>
+                <IDCheckerStr value="http://14.204.84.51"/>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>live":"</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>"</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate >
+                            <!--   <Value NotFinalUrl="YES">%@</Value> -->
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
+        
         <!-- for v 2.1.0 & 1.2.0 -->
         <VideoUrlConvert Name="AllProcessStringType">
             <OriURL>
@@ -484,6 +507,25 @@
                         <GetVID by="valueForKey" value="videoid">url</GetVID>
                     </Xpaths>
                     <ResultURLTemplate>%@</ResultURLTemplate>
+                </Reponse>
+                <Reponse dataType="JSON">
+                    <Xpaths>
+                        <GetVID by="valueForKey" value="videoid">live</GetVID>
+                    </Xpaths>
+                    <ResultURLTemplate>%@</ResultURLTemplate>
+                </Reponse>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>live":"</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>"</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
                 </Reponse>
                 
             </ReponseHandler>
