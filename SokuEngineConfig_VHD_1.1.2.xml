@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.6.9" isValid="0">
+<SearchEngines version="1.7.0" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -194,33 +194,21 @@
         
         <VideoUrlConvert Name="Tudou">
             <OriURL>
-                <IDCheckerStr value="fengyunzhibo.com"/>
+                <IDCheckerStr value="m.wasu.cn"/>
             </OriURL>
             <ReponseHandler>
                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
                     <Tyies>
                         <PrefixChekerStr>
-                            <Value>video src='</Value>
+                            <Value>id="assetProgramPlayUrl" value="</Value>
                         </PrefixChekerStr>
                         <SuffixChekerStr>
-                            <Value>' id="html5-player"</Value>
+                            <Value>"</Value>
                         </SuffixChekerStr>
                         <TargetURLTemplate>
                             <Value>%@</Value>
                         </TargetURLTemplate>
                     </Tyies>
-                    <Tyies>
-                        <PrefixChekerStr>
-                            <Value>iosPlayURL: '</Value>
-                        </PrefixChekerStr>
-                        <SuffixChekerStr>
-                            <Value>',</Value>
-                        </SuffixChekerStr>
-                        <TargetURLTemplate>
-                            <Value>%@</Value>
-                        </TargetURLTemplate>
-                    </Tyies>
-                    
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
@@ -240,7 +228,7 @@
         </VideoUrlConvert>
         
         
-        
+        <!--
         <VideoUrlConvert Name="MYSohuVideo">
             <OriURL>
                 <IDCheckerStr value="mrhso.com"/>
@@ -272,7 +260,27 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-        
+        -->
+        <VideoUrlConvert Name="MYSohuVideo">
+            <OriURL>
+                <IDCheckerStr value="hitvout.starcor1.net"/>
+            </OriURL>
+            <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>nn_live.ts?</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>"</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://222.203.241.34:5001/nn_live.m3u8?%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+            </ReponseHandler>
+        </VideoUrlConvert>
         
         <VideoUrlConvert Name="SohuVideo">
             <OriURL>
