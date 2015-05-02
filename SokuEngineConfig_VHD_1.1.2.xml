@@ -317,7 +317,7 @@
             </ReponseHandler>
         </VideoUrlConvert>
         
-        <!--
+        
         <VideoUrlConvert Name="Qiyi">
             <OriURL>
                 <IDCheckerStr value="qiyi."/>
@@ -351,65 +351,9 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-        -->
-        <!--
-        <VideoUrlConvert Name="LeTV">
-            <OriURL>
-                <IDCheckerStr value="www.letv.com"/>
-            </OriURL>
-            <ReponseHandler>
-                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
-                    <Tyies>
-                        <PrefixChekerStr>
-                            <Value>"location": "</Value>
-                        </PrefixChekerStr>
-                        <SuffixChekerStr>
-                            <Value>",</Value>
-                        </SuffixChekerStr>
-                        <TargetURLTemplate>
-                            <Value>%@</Value>
-                        </TargetURLTemplate>
-                    </Tyies>
-                </Reponse>
-                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
-                    <Tyies>
-                        
-                        <PrefixChekerStr>
-                            <Value>vid:</Value>
-                        </PrefixChekerStr>
-                        <SuffixChekerStr>
-                            <Value>,</Value>
-                        </SuffixChekerStr>
-                        
-                        <PrefixChekerStr>
-                            <Value>pid:</Value>
-                        </PrefixChekerStr>
-                        <SuffixChekerStr>
-                            <Value>,</Value>
-                        </SuffixChekerStr>
-                        
-                        <TargetURLTemplate>
-                            <Value>http://ipad.letv.com/play.php?id=%@&amp;vid=%@</Value>
-                        </TargetURLTemplate>
-                    </Tyies>
-                </Reponse>
-                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
-                    <Tyies>
-                        <PrefixChekerStr>
-                            <Value>tabindex="0" src="</Value>
-                        </PrefixChekerStr>
-                        <SuffixChekerStr>
-                            <Value>" autoplay</Value>
-                        </SuffixChekerStr>
-                        <TargetURLTemplate>
-                            <Value>%@</Value>
-                        </TargetURLTemplate>
-                    </Tyies>
-                </Reponse>
-            </ReponseHandler>
-        </VideoUrlConvert>
-        -->
-        <VideoUrlConvert Name="CNTV">
+        
+        
+         <VideoUrlConvert Name="CNTV">
             <OriURL>
                 <IDCheckerStr value=".cntv.c"/>
             </OriURL>
@@ -462,8 +406,8 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-        <!--
-        <VideoUrlConvert Name="SinaWeiboShortLink">
+ 
+ <VideoUrlConvert Name="SinaWeiboShortLink">
             <OriURL>
                 <IDCheckerStr value="t.cn/"/>
                 <PrefixChekerStr>
@@ -482,9 +426,63 @@
                 </Reponse>
             </ReponseHandler>
         </VideoUrlConvert>
-        -->
-        
-        
+ <VideoUrlConvert Name="LeTV">
+     <OriURL>
+         <IDCheckerStr value="www.letv.com"/>
+     </OriURL>
+     <ReponseHandler>
+         <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+             <Tyies>
+                 <PrefixChekerStr>
+                     <Value>"location": "</Value>
+                 </PrefixChekerStr>
+                 <SuffixChekerStr>
+                     <Value>",</Value>
+                 </SuffixChekerStr>
+                 <TargetURLTemplate>
+                     <Value>%@</Value>
+                 </TargetURLTemplate>
+             </Tyies>
+         </Reponse>
+         <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+             <Tyies>
+                 
+                 <PrefixChekerStr>
+                     <Value>vid:</Value>
+                 </PrefixChekerStr>
+                 <SuffixChekerStr>
+                     <Value>,</Value>
+                 </SuffixChekerStr>
+                 
+                 <PrefixChekerStr>
+                     <Value>pid:</Value>
+                 </PrefixChekerStr>
+                 <SuffixChekerStr>
+                     <Value>,</Value>
+                 </SuffixChekerStr>
+                 
+                 <TargetURLTemplate>
+                     <Value>http://ipad.letv.com/play.php?id=%@&amp;vid=%@</Value>
+                 </TargetURLTemplate>
+             </Tyies>
+         </Reponse>
+         <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+             <Tyies>
+                 <PrefixChekerStr>
+                     <Value>tabindex="0" src="</Value>
+                 </PrefixChekerStr>
+                 <SuffixChekerStr>
+                     <Value>" autoplay</Value>
+                 </SuffixChekerStr>
+                 <TargetURLTemplate>
+                     <Value>%@</Value>
+                 </TargetURLTemplate>
+             </Tyies>
+         </Reponse>
+     </ReponseHandler>
+ </VideoUrlConvert>
+ 
+ 
         <!-- for v 2.1.0 & 1.2.0 -->
         <VideoUrlConvert Name="AllProcessStringType">
             <OriURL>
