@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.15</Version>
+    <Version>1.0.18</Version>
     <isClearFavCh>1</isClearFavCh>
     <isClearRecentCh>1</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -45,8 +45,8 @@
     <!--ptag:0 ffmpeg,1 system,2 web ，3 converter-->
     
     <Channel name="热门" type="1">
-        
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视－标清" type="1" l="zhejiang,zhejiang" date="4" week="6,7" bbtime="21:00" betime="23:59" tb="28-21:00" te="28-23:59">
+        <!--
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视－标清" type="1" l="zhejiang,zhejiang" date="4" week="6,7,0" bbtime="21:00,00:00" betime="23:59,02:00"  tb="28-21:00" te="28-23:59">
             <streamURL>eCf0k3Dq2T7JDQd2JY6w+dlcjMMld6NgedtrVE20d+xJ0zPtbY+exhyZUpRkoTlf4lqo/HzKEe0Q8V6eoIPPQQ==</streamURL>
             <streamURL>+moR95cVYLpeA+djdaqwW2WBkRGSwV98ocs5RWGsn7zdtNs6Gww7aM+iA2d47JWNGlynj8Fp+rfhtKZciGP7vw==</streamURL>
         </SubChannel>
@@ -60,7 +60,7 @@
             <streamURL>+moR95cVYLpeA+djdaqwW2WBkRGSwV98ocs5RWGsn7xHSRMO35OMmLgCtkHFyL9Y</streamURL>
             <streamURL>+moR95cVYLpeA+djdaqwW2WBkRGSwV98ocs5RWGsn7w/dXhPCerErQQX/FYpv7MAT73j0bX/S6yvCXNHJPmQqg==</streamURL>
         </SubChannel>
-        
+        -->
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-dragontv1.png" name="东方卫视－高清" type="1" l="dongfang,dongfang">
             <streamURL>RZEHNkQ6Howx6Octw3C2Bo4hBecWLm20VQ6Jp+tbrk+n+La94taMDqCPSXtCB3yMDHx+XABOLErA0Qw0sgXBzQ==</streamURL>
             <streamURL>+moR95cVYLpeA+djdaqwW2WBkRGSwV98ocs5RWGsn7xVMOeZhHPEe2qQu1pgfo/ud7VpwDoXB8W7usxE2LWA4Q==</streamURL>
@@ -778,11 +778,13 @@
     </Channel>
     
     <Channel name="浙江" type="10">
+        <!--
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视" type="1" l="zhejiang,zhejiang" date="4" week="6,7" bbtime="21:00" betime="23:59" tb="4-21:00" te="4-23:59">
             <streamURL>eCf0k3Dq2T7JDQd2JY6w+dlcjMMld6NgedtrVE20d+xJ0zPtbY+exhyZUpRkoTlf4lqo/HzKEe0Q8V6eoIPPQQ==</streamURL>
             <streamURL>+moR95cVYLpeA+djdaqwW2WBkRGSwV98ocs5RWGsn7xHSRMO35OMmLgCtkHFyL9Y</streamURL>
             <streamURL>+moR95cVYLpeA+djdaqwW2WBkRGSwV98ocs5RWGsn7w/dXhPCerErQQX/FYpv7MAT73j0bX/S6yvCXNHJPmQqg==</streamURL>
         </SubChannel>
+         -->
         <SubChannel iconURL="" name="萧山综合" type="5">
             <streamURL ptag="1">F4cU14q2WccLdfP+VyQMCY9wD+qIJypQd+QzhtD8f9Vuxv/LIhoxR6kJSlngCQl0z2hLMQk6CPOxzGCmhWGvf/kjegWcazuThq8vi4BbBjs=</streamURL>
         </SubChannel>
