@@ -526,6 +526,21 @@
                             </Tyies>
                             -->
                 </Reponse>
+                
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>"url":"</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>"</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
+                
                 <Reponse dataType="JSON">
                     <Xpaths>
                         <GetVID by="valueForKey" value="videoid">url</GetVID>
