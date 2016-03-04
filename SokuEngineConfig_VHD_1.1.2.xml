@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.7.1" isValid="0">
+<SearchEngines version="1.7.2" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -323,6 +323,19 @@
                 <IDCheckerStr value="qiyi."/>
             </OriURL>
             <ReponseHandler>
+                <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                    <Tyies>
+                        <PrefixChekerStr>
+                            <Value>m3u8.</Value>
+                        </PrefixChekerStr>
+                        <SuffixChekerStr>
+                            <Value>","</Value>
+                        </SuffixChekerStr>
+                        <TargetURLTemplate>
+                            <Value>http://m3u8.%@</Value>
+                        </TargetURLTemplate>
+                    </Tyies>
+                </Reponse>
                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
                     <Tyies>
                         <PrefixChekerStr>
