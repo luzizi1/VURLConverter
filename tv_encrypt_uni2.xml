@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.44</Version>
+    <Version>1.0.45</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -1364,8 +1364,9 @@
     </Channel>
     <Channel name="河北" type="33">
         <SubChannel iconURL="http://files.cnblogs.com/luxiang/hebeiweishi.ico" name="河北卫视－高清" type="1" l="hebei,hebei">
-            <streamURL ptag="3">iFyoKs/GK9FnsLyOtkfobBsae/mO6N3C/A53QADSNsnVUK54bTtDRnZdYCSNIfiejY5lrH31OjXfZNhApGgHLGOp+eoDXhUX53G+RdlUBxc=</streamURL>
             <streamURL>SvhI6NeUuK8HYBXs+0odm2pFobdrP3pGTZsbXlixRj8J8aNOpGxwfk1FLa3jH5kgdrRc31kfHJKPgyjsOd6gGSuHB3vyGzgaf+lT+rEeKOs=</streamURL>
+            <streamURL>6zOv2vy2uwQAMbzgdQy2Xgcokn4jlrsCPLaiS8DcUt2eQGaW8K4z2URhfQp5n+7vfzx9bF/CK5dO/4X8bBJM6fDQiEW8ovTFwyUtRj3/blt9UqhRSGLJZ+ImTmxD79vCMRZQL8m5kHOVtRMN+56Kiw==</streamURL>
+            <streamURL ptag="3">iFyoKs/GK9FnsLyOtkfobBsae/mO6N3C/A53QADSNsnVUK54bTtDRnZdYCSNIfiejY5lrH31OjXfZNhApGgHLGOp+eoDXhUX53G+RdlUBxc=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://files.cnblogs.com/luxiang/hebeiweishi.ico" name="河北卫视－普清" type="1" l="hebei,hebei">
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T5JlsViRZzx+UZmkIGHI7jw=</streamURL>
@@ -1519,7 +1520,7 @@
             <streamURL>+moR95cVYLpeA+djdaqwW2WBkRGSwV98ocs5RWGsn7xsovwD9Db+i1BdN0xutxvk</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-shandong1.png" name="山东卫视－标清" type="1" l="shandong,shandong">
-            <streamURL>cq24z2HxJJKQwwYL+EeYRes8YO1wxnN4Bdepepi28Tao4iUWOko2iocQkNi/FsgR9SS5m+rebZ5WU7iRgVKdoXbhKRNGiGLvBfbnD0I9XxLvQ/qi9ILOO9eyrxIFw3Nz</streamURL>
+            <streamURL>mcIJZ98XZnH/bs8Axa/gAPKxfntOPXB+/C07TvzSXdXjmiTuP9k7M4MImP9MBd+0+NR7rmyZos2VTJYqGb+B05Sy8pez/gwgNVQ/e/kn8ufMIFCHVUlqHzm3uE7I/d3J</streamURL>
             <streamURL>+moR95cVYLpeA+djdaqwW2WBkRGSwV98ocs5RWGsn7xsovwD9Db+i1BdN0xutxvk</streamURL>
             <streamURL ptag="3">iFyoKs/GK9FnsLyOtkfobBsae/mO6N3C/A53QADSNsl7GMtv/Llp8sqqT3FTlRVfKRHLHFqbEDgX/rGsQ5SxLNbRXsuHu2mzgQ3SQx85kKw=</streamURL>
         </SubChannel>
