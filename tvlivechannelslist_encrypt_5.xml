@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>10.3.89</Version>
+    <Version>10.3.92</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -26,7 +26,7 @@
         <appVersion>2.1.0</appVersion>
         <info>
             <valid>1</valid>
-            <frequency>3</frequency>
+            <frequency>20</frequency>
             <link>http://itunes.apple.com/cn/app/id788605489</link>
             <word>如果你觉得此应用不错，前去appstore评分？</word>
         </info>

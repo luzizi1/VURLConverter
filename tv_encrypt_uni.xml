@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.57</Version>
+    <Version>1.0.60</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -12,8 +12,8 @@
     <bufferTime4Reload>10</bufferTime4Reload>
     <reloadTime>10</reloadTime>
     <nofreshTime>20</nofreshTime>
-    <loadOpenAdRate_ip>1</loadOpenAdRate_ip>
-    <loadOpenAdRate_ipad>0.5</loadOpenAdRate_ipad>
+    <loadOpenAdRate_ip>0.6</loadOpenAdRate_ip>
+    <loadOpenAdRate_ipad>0.6</loadOpenAdRate_ipad>
     <loadPlayerAdRate_ipad>0</loadPlayerAdRate_ipad>
     <loadPlayerAdRate_ip>0</loadPlayerAdRate_ip>
 
@@ -21,7 +21,7 @@
     <Appstate>1</Appstate>
     <playerlistURL>SErmxGC8wjPr345vfHYZQyrgKuuu6T7f78Vl0X+tv/eoidvcRP5YPsNehR8Zm0bLWM4fkLd0JGx9Zvxv8egw4/2v5WikNdf2VpjL/vkALgnIBiLXwAkh/XjQpQP9xT8V</playerlistURL>
     <playerlistURL_header>Referer==http://cctv.com##Referer==http://www.cctv.com</playerlistURL_header>
-    <IPAddressInfoURL>roPQO4b4EgaM1i9IYXFEtYtToUY41gC2RkpVtKTuGTU=</IPAddressInfoURL>
+    <IPAddressInfoURL>e3E3KT9a3f+2Ui4kRpk0WqNVoliXioWJnP6Nza40b6780s8LvgIlWCVia4kX6AClffdW7a48hVWkd1lbcbZWhu6bpmjtQrybujdGxTOveZkISXOcNAqgXLKMlvXFVWyXS+qXFjjKHmGKyI61ypXfEPJAasOF/ayqk4DaESCmQKwuJbEY93E4bom+Ofr2lBjHndVHwIhyWBdoaL++k27gIBnhN/t9Ct6sgX6C7F+y1UEpqnAlaW9nv0D8CBUjA5kD</IPAddressInfoURL>
     
     
     <useConfigRate>68,8,8,8,8</useConfigRate>
@@ -40,7 +40,7 @@
         <appVersion>1.0.0</appVersion>
         <info>
             <valid>1</valid>
-            <frequency>8</frequency>
+            <frequency>20</frequency>
             <link>https://itunes.apple.com/app/id997229527</link>
             <word>如果你觉得此应用不错，前去appstore评分？</word>
         </info>
