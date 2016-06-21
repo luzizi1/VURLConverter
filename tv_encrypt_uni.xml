@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.61</Version>
+    <Version>1.0.62</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -379,28 +379,36 @@
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T0sbzMZVGsHa6QdCMUM7p+w=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-tjtv1.png" name="天津新闻" type="1">
+            <streamURL>XVlNs7JxjCD0dfYakLPmP7B/ftyXMuXZ8CMJYrMHn1w8e6+oIhCstV7RkcSL9XhFRccDiHZPGizYv9Hh1Sk1Xg==</streamURL>
             <streamURL>jeX4NxTiRBSN/uAmwyc64NDGqYQpsNdrub9Cs7w+MfDAXqO3Z2Tt4c9Np6ViwJ2fQ4B5yWLc/MnumTm5t7pdOGDZPEkk9A1AmHiSCHrKZN8=</streamURL>
             <streamURL>1anPeIR+jPLP+L7xXPF7vZ/FVe7vh26VVBZrSGYShJFsnVqdlsDnj49F+hPeRFQN6R0O/NwEtao16OxLy7yJEOUkfqY852rl0ODitm4zMb/rptR+1/fd0sVyx8cy4AGm</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-tjtv1.png" name="天津文艺" type="1">
+            <streamURL>XVlNs7JxjCD0dfYakLPmP7B/ftyXMuXZ8CMJYrMHn1xtp9vRzjVkQoYKat9SPOdiWC2OJbW7Audyl0saplp+SQ==</streamURL>
             <streamURL>jeX4NxTiRBSN/uAmwyc64NDGqYQpsNdrub9Cs7w+MfD1gogbMv2FgNEJfJRGEj/ZPf/D4kNjy6u7SvZ/6MFyt6nlrgrEPXwQ9G3C/O6m2As=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-tjtv1.png" name="天津影视" type="1">
+            <streamURL>XVlNs7JxjCD0dfYakLPmP7B/ftyXMuXZ8CMJYrMHn1zRBdM4jl1Swm3n7byQTW7op+KPgcZcOfMaEsz9/UZ6tw==</streamURL>
             <streamURL>jeX4NxTiRBSN/uAmwyc64NDGqYQpsNdrub9Cs7w+MfAIyi1cWSTqlSgFGUAi5MBz320TBF5pylVpnDRynZo+wUMYeBeta2c3tkYOoZik9rE=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-tjtv1.png" name="天津都市" type="1">
+            <streamURL>XVlNs7JxjCD0dfYakLPmP7B/ftyXMuXZ8CMJYrMHn1yDoDUFq98oww6oiuOf/KB2WC6OXAyF5qc4xXBYsNhtdg==</streamURL>
             <streamURL>jeX4NxTiRBSN/uAmwyc64NDGqYQpsNdrub9Cs7w+MfC81kvPkLwQVRCXeE2mNwlxav5xPwaSY35g0pPz1CJ6RaolfGvyFXEkOoQC+whjUzQ=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-tjtv1.png" name="天津科教" type="1">
+            <streamURL>XVlNs7JxjCD0dfYakLPmP7B/ftyXMuXZ8CMJYrMHn1wCbcdSmKKEnXJMPV/0SgLQD1mjc1lZxmC3MZX/r9M4GA==</streamURL>
             <streamURL>jeX4NxTiRBSN/uAmwyc64NDGqYQpsNdrub9Cs7w+MfCF3xdLh9syivZv4WOjhrqRYKOIDLSlktj2rEa6uDPN6qxeqwXoJQjG9U9+Bme+1I8=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-tjtv1.png" name="天津少儿" type="1">
+            <streamURL>XVlNs7JxjCD0dfYakLPmP7B/ftyXMuXZ8CMJYrMHn1yylgxQT2hS4BO0JBcPnDdAEo2RgEjNK+IQljZ5M7aHbw==</streamURL>
             <streamURL>jeX4NxTiRBSN/uAmwyc64NDGqYQpsNdrub9Cs7w+MfAB4niksP9D9fp7xwGttG+FLYOv7lFKa8Pgjf4aQ/OL6+DsqPomytlCq30FgaOnpPk=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-tjtv1.png" name="天津公共" type="1">
+            <streamURL>XVlNs7JxjCD0dfYakLPmP7B/ftyXMuXZ8CMJYrMHn1z8w8h12RH7QUQW9UE+2dmy1TufIqpmuah9vd1N6mKzjw==</streamURL>
             <streamURL>jeX4NxTiRBSN/uAmwyc64NDGqYQpsNdrub9Cs7w+MfCr3O3HyAfsX9/1NTgZ24R8xIWMgRMzwSKIuLzKP2RytHyd+5GEJkTaDp4pghQRZ7M=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-tjtv1.png" name="天津国际" type="1">
+            <streamURL>XVlNs7JxjCD0dfYakLPmP7B/ftyXMuXZ8CMJYrMHn1yUYsYBi+BLrAjC8UBztiz8Y2B+dqPPr3uaD7Z1BbNrRg==</streamURL>
             <streamURL>8uieyGnL7taf4FdHdMQfdU4kFTpGG6KDTYC+2tESKvApVYbLU1X9Ojl2+EA11V5SAIZRRFLRP41syRwgPZKYYu53PfbRiHpYJjqIr2Mnfqk=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-tjtv1.png" name="天津购物" type="1">
