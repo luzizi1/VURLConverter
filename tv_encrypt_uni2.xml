@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.64</Version>
+    <Version>1.0.65</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -159,7 +159,7 @@
     </Channel>
     <Channel name="央视" type="2">
         <SubChannel iconURL="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/CCTV.svg/320px-CCTV.svg.png" name="CCTV1－流畅" type="1" l="cctv1,cctv1">
-            <streamURL>CBFnLsfAop1Xkz/M6SSs3ayShdxCjaobskbWdljLw3QZ8c5xJYlJDrorQP08UgQZjLSmSdY19z0/NPB6DOuMB0RlsrMj9qkg6HJpx0UsO1wnLTsFRBBvAfeMFW2KCYOb</streamURL>
+            <streamURL ptag="1">CBFnLsfAop1Xkz/M6SSs3ayShdxCjaobskbWdljLw3QZ8c5xJYlJDrorQP08UgQZjLSmSdY19z0/NPB6DOuMB0RlsrMj9qkg6HJpx0UsO1wnLTsFRBBvAfeMFW2KCYOb</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1TyLpfILJJGwBtN1aCmMUk6Q=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/CCTV.svg/320px-CCTV.svg.png" name="CCTV1－普清" type="1" l="cctv1,cctv1">
