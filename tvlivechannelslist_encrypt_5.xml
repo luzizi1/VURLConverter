@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>10.3.98</Version>
+    <Version>10.3.99</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -1562,16 +1562,16 @@
             <streamURL>rtmp://218.22.251.12/tslsChannelLive/gdhS3fc/live</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cbdcctv.com/meitipic/2011.8.31_16.7.2_4058.jpg" name="芜湖综合" type="6">
-            <streamURL>tFR4hEdjLKSyeKV/SKcmk2IbKvr0THx0UaBg/pfwUSaSA6BMkrmA9jSENqb5EtxXVcdtL1Tp+LV+QUnojmOt3w==</streamURL>
+            <streamURL ptag="1">tFR4hEdjLKSyeKV/SKcmk2IbKvr0THx0UaBg/pfwUSaSA6BMkrmA9jSENqb5EtxXVcdtL1Tp+LV+QUnojmOt3w==</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cbdcctv.com/meitipic/2011.8.31_16.8.29_3726.jpg" name="芜湖生活" type="6">
-            <streamURL>tFR4hEdjLKSyeKV/SKcmk2IbKvr0THx0UaBg/pfwUSaGg5xQAhJrO/O7JhGkzfglbebeVZyCI57woRkcUjfn5A==</streamURL>
+            <streamURL ptag="1">tFR4hEdjLKSyeKV/SKcmk2IbKvr0THx0UaBg/pfwUSaGg5xQAhJrO/O7JhGkzfglbebeVZyCI57woRkcUjfn5A==</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.jiarui.cc/meitipic/2011.8.31_16.14.43_7609.jpg" name="芜湖公共" type="6">
-            <streamURL>tFR4hEdjLKSyeKV/SKcmk2IbKvr0THx0UaBg/pfwUSaGYJNSD2K9qXA9S3irCGtpX3/LuequdwyXkjvXZrOSfA==</streamURL>
+            <streamURL ptag="1">tFR4hEdjLKSyeKV/SKcmk2IbKvr0THx0UaBg/pfwUSaGYJNSD2K9qXA9S3irCGtpX3/LuequdwyXkjvXZrOSfA==</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cbdcctv.com/meitipic/2011.8.31_16.7.2_4058.jpg" name="芜湖教育" type="6">
-            <streamURL>tFR4hEdjLKSyeKV/SKcmk2IbKvr0THx0UaBg/pfwUSZ1Bar7leTy3hapHJPf9jOPHjE8rCna3+JzqsVZrfl7uA==</streamURL>
+            <streamURL ptag="1">tFR4hEdjLKSyeKV/SKcmk2IbKvr0THx0UaBg/pfwUSZ1Bar7leTy3hapHJPf9jOPHjE8rCna3+JzqsVZrfl7uA==</streamURL>
         </SubChannel>
     </Channel>
     <Channel name="河北" type="33">
