@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.79</Version>
+    <Version>1.0.80</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -494,10 +494,10 @@
         <SubChannel iconURL="http://awb.img.xmtbang.com/img/uploadnew/201510/24/e16c180d50c54f07951b21bbbd1617ba.jpg" name="涪陵电视台" type="8">
             <streamURL>++/T4CdqgBPx6hGaZB8EIUme+NfzVL8sTidD0rVUoMUuW3mM5NuwTByjayj+f710</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/tongliandianshitai.jpg" name="铜梁综合" type="8">
+        <SubChannel iconURL="" name="铜梁综合" type="8">
             <streamURL>1t8QB6QDpHFzqtC3L0cON5TEbL5mzjyU6chl12WDHR7ALCF2i931Zgr5Hw87+/GZL+I3LvL4DBUjODqd6c7xugYsAavr5PPDDr6us8CbI+E=</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/tongliandianshitai.jpg" name="铜梁文旅" type="8">
+        <SubChannel iconURL="" name="铜梁文旅" type="8">
             <streamURL>1t8QB6QDpHFzqtC3L0cON5TEbL5mzjyU6chl12WDHR7ALCF2i931Zgr5Hw87+/GZtIOfH7mCmp5qWJu3/beQPXRhVeAmWxb4ObHGuhmiJu8=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.vision1.cn/NEWS/UploadFiles_2440/200701/20070107160243567.jpg" name="万州综合" type="8">
@@ -518,15 +518,15 @@
         <SubChannel iconURL="http://awb.img.xmtbang.com/img/uploadnew/201510/22/4a511c99d11042819173c0b396bfae63.jpg" name="长寿文化" type="8">
             <streamURL>QGzBH4irkALQPP/bWVB2EbVf8NeGcLr+amMhQ2DG5CVqs5JmRdxGiMH9JHerBHEfrJ81QU4eR46hYF46yIAVSw==</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/banandianshitai.png" name="巴南综合" type="8">
+        <SubChannel iconURL="" name="巴南综合" type="8">
             <streamURL>6Ul8iBt6wrFAkz6ahAGXYd2opLTB9weOXRC3j/PIS//UjD2ZEhY3PUTLqVPTm06Z</streamURL>
             <streamURL>rtmp://stream.cqbntv.com/live/channel1_sd</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/banandianshitai.png" name="巴南生活" type="8">
+        <SubChannel iconURL="" name="巴南生活" type="8">
             <streamURL>6Ul8iBt6wrFAkz6ahAGXYd2opLTB9weOXRC3j/PIS/9ibCsVe90pkDPFgMDUg1v8</streamURL>
             <streamURL>rtmp://stream.cqbntv.com/live/channel2_sd</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/banandianshitai.png" name="巴南快乐" type="8">
+        <SubChannel iconURL="" name="巴南快乐" type="8">
             <streamURL>6Ul8iBt6wrFAkz6ahAGXYd2opLTB9weOXRC3j/PIS/9j9q35W6nICwzrLquYTX63</streamURL>
             <streamURL>rtmp://stream.cqbntv.com/live/channel3_sd</streamURL>
         </SubChannel>
@@ -775,10 +775,10 @@
         <SubChannel iconURL="http://c.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=24fce1cf3e6d55fbc5c6712055192877/a686c9177f3e6709cb56c8ee38c79f3df8dc5548.jpg" name="佛山公共" type="13">
             <streamURL>rtsp://58.248.254.8/dishi/fsgg-l.sdp</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/shaoguandianshitai.jpg" name="韶关综合" type="13">
+        <SubChannel iconURL="" name="韶关综合" type="13">
             <streamURL>5n/ZDaTGHNt6mAJcxCVNR43JdcyFQPRc7EDozhA9xEehxB/wxBKyEDiSI+XZ5VLwz29nWgM/9o9oNHNuYurNa6q50gzVEgDbop8dKKUTh36QdPtWwYQmlfL5mNw1rw6i</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/shaoguandianshitai.jpg" name="韶关生活" type="13">
+        <SubChannel iconURL="" name="韶关生活" type="13">
             <streamURL>5n/ZDaTGHNt6mAJcxCVNR43JdcyFQPRc7EDozhA9xEehxB/wxBKyEDiSI+XZ5VLwz29nWgM/9o9oNHNuYurNa4zXs0INEcwXNAPKCPA2srxC3s724R8owu+0sfn4Mo5i</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://e.hiphotos.baidu.com/baike/w%3D268%3Bg%3D0/sign=3a162f49b9389b5038ffe754bd0e82e0/b21bb051f81986183abddad34aed2e738ad4e6ea.jpg" name="潮州综合" type="13" l="cztv1,cztv1">
@@ -973,28 +973,28 @@
         <SubChannel iconURL="" name="湘西新闻" type="4">
             <streamURL>BvcDnKRoXEZqL2YundopcsEyGRGEW22XPXEcq0yhm83+MHFqE47LZACQR6UDyuRPqn8oShjeDtu83nLupRDRtkS9oHmUxf3/QR8bkaZZp/s=</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/youxiandianshitai.jpg" name="攸县新闻" type="4">
+        <SubChannel iconURL="" name="攸县新闻" type="4">
             <streamURL>rtmp://zb.allook.8686c.com/vod/yxxtv1</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/youxiandianshitai.jpg" name="攸县民生" type="4">
+        <SubChannel iconURL="" name="攸县民生" type="4">
             <streamURL>rtmp://zb.allook.8686c.com/vod/yxxtv2</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/youxiandianshitai.jpg" name="攸县经济" type="4">
+        <SubChannel iconURL="" name="攸县经济" type="4">
             <streamURL>rtmp://zb.allook.8686c.com/vod/yxxtv3</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/youxiandianshitai.jpg" name="攸县电视剧" type="4">
+        <SubChannel iconURL="" name="攸县电视剧" type="4">
             <streamURL>rtmp://zb.allook.8686c.com/vod/yxxtv4</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/yongzhoudianshitai.png" name="永州新闻" type="4">
+        <SubChannel iconURL="" name="永州新闻" type="4">
             <streamURL>pgL2DQX98m+HHF5ZQwrzZa+g5Aa9lBboIuDva8WW1g2a5na5uXA0ssYzgoIFOre6</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/yongzhoudianshitai.png" name="永州都市" type="4">
+        <SubChannel iconURL="" name="永州都市" type="4">
             <streamURL>pgL2DQX98m+HHF5ZQwrzZV7PArHbHV1PDtpi+U+i/hwK5V2C+/kKWCOsT5Aq14kF</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/yongzhoudianshitai.png" name="永州公共" type="4">
+        <SubChannel iconURL="" name="永州公共" type="4">
             <streamURL>pgL2DQX98m+HHF5ZQwrzZWjM1qJJJC1JmyJivPY7fFfcFliUOG/VQyT6Gnp9SvyQ</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/yueyangdianshitai.jpg" name="岳阳新闻" type="4">
+        <SubChannel iconURL="" name="岳阳新闻" type="4">
             <streamURL>nwHq4EqP83+om9kUIG/n8+6wsbnKoX3GLhGnOFqm7tA3V72uCjfnu7B/dTjWU4t+pd/0yYVHgu2d+rFI7IihUQ==</streamURL>
         </SubChannel>
     </Channel>
@@ -1113,18 +1113,18 @@
         <SubChannel iconURL="http://static.tvmao.com/tvstation/logo/FENGHUATV.gif" name="奉化生活" type="5">
             <streamURL ptag="1">20YLiyQDyq74ahlBP9nA5kiiTY6BHZ/YYRUT+TWwWj6oChYB+LFY1SCO/03+yLif</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/pingyangdianshitai.png" name="平阳新闻" type="5">
+        <SubChannel iconURL="" name="平阳新闻" type="5">
             <streamURL>oG23oVqQydTLEeXsa1IKpNvx+8q4OSsnIzETfqjlGdnTedE+d+v+mH67qdrjpgWvSjjefdD4wAbEfdL3nFCEgVar+vYUBFJX9RjmlBRatmQ=</streamURL>
             <streamURL>rtmp://113.214.24.158/live/live008</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/pingyangdianshitai.png" name="平阳娱乐" type="5">
+        <SubChannel iconURL="" name="平阳娱乐" type="5">
             <streamURL>oG23oVqQydTLEeXsa1IKpNvx+8q4OSsnIzETfqjlGdnTedE+d+v+mH67qdrjpgWvSjjefdD4wAbEfdL3nFCEgesZkR10TAqFXiO52XkcyNA=</streamURL>
             <streamURL>rtmp://113.214.24.158/live/live009</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/xinchangdianshitai.png" name="新昌新闻" type="5">
+        <SubChannel iconURL="" name="新昌新闻" type="5">
             <streamURL>MwAQ4RebCDGjiK231p56gvDzlPLEG6bNC06qlIJolz+BWxVwpmOxmfvBuNk+hrd5PM+1Sjg36wAuK00Gga3yAJ1PcyM6TkLtfc5YXv+vWjE=</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/xinchangdianshitai.png" name="新昌影视" type="5">
+        <SubChannel iconURL="" name="新昌影视" type="5">
             <streamURL>MwAQ4RebCDGjiK231p56gvDzlPLEG6bNC06qlIJolz+BWxVwpmOxmfvBuNk+hrd5G3Y7FUOZAX3J9jV4Kt9mJGo4i+a4WP4WK6bwbkRgGZ4=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.jiarui.cc/meitipic/2011.11.25_9.55.7_9891.jpg" name="瑞安新闻" type="5">
@@ -1142,16 +1142,16 @@
         <SubChannel iconURL="" name="乐清生活" type="5">
             <streamURL>F/OWz4Z1yM/aYEVivjp3oM7PzX3D1avWg//qzEjXWGdDP+b/j8F/GQAsdVlhalUgGp3K07hDkPtPPRTXkXq19Q==</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/keqiaodianshitai.gif" name="柯桥新闻" type="5">
+        <SubChannel iconURL="" name="柯桥新闻" type="5">
             <streamURL>rtmp://www.scbtv.cn/live/new</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://tva4.sinaimg.cn/crop.0.0.121.121.50/005SG4LZgw1emwhcl5m4ij303e03ewef.jpg" name="嵊州新闻" type="5">
             <streamURL>F4cU14q2WccLdfP+VyQMCQ7o2s7jXYt9iP2Kpzu7Z7Vc3VIe7458XbpzsInw9gEizZ2wQZu5urws/fYDkN90/c2fZ9DShXdC/fUGVPeu+hs=</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/yuhuandianshitai.jpg" name="玉环一套" type="5">
+        <SubChannel iconURL="" name="玉环一套" type="5">
             <streamURL>v9jwpa0eiIuNgnRR96Y4gU50oEBet4mP8Fnj+n6xGVJ41k0FHTwqck1aT++AlCtRXRXuKu/+E/ZIG9elS+F6KQ==</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://s1.51app.mobi/tvicon/yuhuandianshitai.jpg" name="玉环二套" type="5">
+        <SubChannel iconURL="" name="玉环二套" type="5">
             <streamURL>v9jwpa0eiIuNgnRR96Y4gU50oEBet4mP8Fnj+n6xGVK5BWbPfaRt0IzlpgRz98XnSwUiVjOY+3D32YOmFwP1VQ==</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://static.tvmao.com/tvstation/logo/ZSPTTV.gif" name="普陀电视台" type="5">
