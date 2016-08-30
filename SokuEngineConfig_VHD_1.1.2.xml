@@ -418,7 +418,28 @@
                     </Tyies>
                 </Reponse>
             </ReponseHandler>
-        </VideoUrlConvert>
+         </VideoUrlConvert>
+         
+         <VideoUrlConvert Name="MIGU">
+             <OriURL>
+                 <IDCheckerStr value=".cmvideo.cn"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>video src="</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>" </Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
  
  <VideoUrlConvert Name="SinaWeiboShortLink">
             <OriURL>
