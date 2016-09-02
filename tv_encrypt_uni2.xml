@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.112</Version>
+    <Version>1.0.113</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -2281,6 +2281,13 @@
         </SubChannel>
     </Channel>
     <Channel name="甘肃" type="11">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-gansu1.png" name="甘肃卫视－高清" type="1" l="gansu,gansu" geo="北京,上海,深圳,广州,杭州">
+            <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T4TNPtGdQwCHF1kf7SCuekY=</streamURL>
+            <streamURL>yOekETGU1u5Mx0uftvvOZklwLsYqvBUh4MLORPZxXNzNU6syp2mxjACO2fr37iKLpFb2b69L8BETI3/cVtXaA4FHHjef9/ot5j+BD23Lun07TZ0EAkm4Q7fCv1gyM2ZFR8XRD3YKAv80JLnxM0Tchw==</streamURL>
+        </SubChannel>
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-gansu1.png" name="甘肃卫视－标清" type="1" l="gansu,gansu" geo="北京,上海,深圳,广州,杭州">
+            <streamURL>P37Qt8albxMYCifnGe8oLu9y6RvjsHzups/hYvw24h/i8pa/cQaSMNA07IGq9gy+/53X2t94fMkAe2V5DiXvpKXPE8IKyhMzZVCocq9BZHVpnVgV//xxsRCY8SRPX5KG</streamURL>
+        </SubChannel>
         <SubChannel iconURL="http://www.52image.com/uploadfile/200909/200909160031%C0%BC%D6%DD%B5%E7%CA%D3%CC%A8.jpg" name="兰州新闻" type="1">
             <streamURL>G1Xoo6UpWsggf3skxJ5MbMx8zL91YJW622KRn5dBWDQ=</streamURL>
             <streamURL>G1Xoo6UpWsggf3skxJ5MbGxEpOAN0fXcSreJxRh1kZ4=</streamURL>
@@ -2527,12 +2534,12 @@
         </SubChannel>
     </Channel>
     <Channel name="辽宁" type="18">
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-liaoning1.png" name="辽宁卫视－普清" type="1" l="liaoning,liaoning">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-liaoning1.png" name="辽宁卫视－普清" type="1" l="liaoning,liaoning" geo="北京,上海,深圳,广州,杭州" date="" week="0,1,2,3,4,5,6,7" bbtime="19:20" betime="21:30" tb="" te="">
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaQGJ4fcw2g7ZMF1GLFbg+acH98D63D3UdXduVHjFnQ9Q=</streamURL>
             <streamURL>Nw7UqaauxkiUiNsKwGkzpi5nVaSggtAmfmiVlAocaOHD5lrFHiN2I1nAgKyUuIZ1g2nl0/na3xQcZGPT8QGAIPwlHeo4PW8msU7V0Na7AVTzt7mXd6f0bqF4Br3TYAVQZzeYvHdPsMyj8itTSQEiVleLGd8Zo6nlt2w+ubVAajbAqaTV3uaLrULOgccMhDwDyQ2tgBQ9DM2CPbW67YnaVGaPyHWIcLfoqNxuwwtlPffvhnajYxH2CruXvgKiZ1CMvLBP4sOnBgVuTE5x+8kg6g==</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T/XCjZpt5sYzoCfHtEyT2oM=</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-liaoning1.png" name="辽宁卫视－标清" type="1" l="liaoning,liaoning">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-liaoning1.png" name="辽宁卫视－标清" type="1" l="liaoning,liaoning" geo="北京,上海,深圳,广州,杭州" date="" week="0,1,2,3,4,5,6,7" bbtime="19:20" betime="21:30" tb="" te="">
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tK4QZKrfyFTG4S49vhzCwOrgtfoCQ8PSQNXkUlyfjZkyU=</streamURL>
             <streamURL ptag="3" index="1">iFyoKs/GK9FnsLyOtkfobBsae/mO6N3C/A53QADSNskheI9gtMGaBG3k5fYkrnTbZSkIW5ouzuK5Ixr3wXM1l2hCq+FR4mlPuS7rR+W4/KA=</streamURL>
             <streamURL>mcIJZ98XZnH/bs8Axa/gAA6xZowT87LYIiT2O9/M8b43PPReGp+I0ZS+q5yN+BvoRFb94F5lqAvVEJiI2sRf/b2PKnxp1iV+ntjkk6vaByP7wScpmTxZNqpCGnHNgCsz</streamURL>
