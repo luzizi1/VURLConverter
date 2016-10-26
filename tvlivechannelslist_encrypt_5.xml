@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>10.3.156</Version>
+    <Version>10.3.158</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -34,19 +34,19 @@
     
     <!--ptag:0 ffmpeg,1 system,2 web ，3 converter-->
     <Channel name="热门" type="1">
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视－普清" type="1" l="zhejiang,zhejiang" geo="北京,上海,浙江,杭州,深圳,广州">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视－普清" type="1" l="zhejiang,zhejiang" geo="北京,上海,浙江,杭州,深圳">
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tKFStlPTgmNGUmK5VVpL8/PjvNnZRwuXzN8hR0FJeQvRQ=</streamURL>
             <streamURL>gEiVHNBqRfKOSCiPUj2/a8PUONo1AQL++UIL6U24mVWRBAroTBpc51dQOYL6EBJvTEQ/dujGoQ7nADZTclT0vQ==</streamURL>
             <streamURL>HPmBp19H43DZtXTHGQBYmGF7DMykvuPdH9wB48DzTzDwdbPujRU/tHS6egncBoBi</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视－标清" type="1" l="zhejiang,zhejiang" geo="北京,上海,浙江,杭州,深圳,广州">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视－标清" type="1" l="zhejiang,zhejiang" geo="北京,上海,浙江,杭州,深圳">
             <streamURL>Nw7UqaauxkiUiNsKwGkzpgmcsJoJZYKQOqk71oKZNswqpDwBK3OtTRPcABdmbInuXNsFOgoV5V3d8EkODvW8RbbETRGN4CoWBeB6qUJxfzTW7CZ/1OG/kvh9Qe35lUE/rxgXqKeMrtWxNUmaEz6Z9IZ+4ldNb6eqVdmFP1CKMm64mpexU+MPDSFOk4O4VhshSIrB0U9ng/ed9yMhCKdgHZjqHmZUUOuYA+5CgpeHYbwzOXNo5srLjvu7cTNDinShSfEz4qsfsfs0RImbkIvajQ==</streamURL>
             <streamURL>RfwYeMKtplOXrKfOOT+GdiEGqEdt6uxx5Bw10mPxCZWw8ofyVMwE/jBWEM79vJz94z5buMQmLk1Obyq4t9PMEQ==</streamURL>
             <streamURL>wvwmyWi3lha9CL5zHoim0mWS3NSsDb1w+1p5LD8SaI709tR6+cLz9JKQmE7kQaVX7h/g9wpj6p0oTxiT93xgrg==</streamURL>
             <streamURL>HPmBp19H43DZtXTHGQBYmLMeKvBDQTP6OwbNefwHdjmbGoUYpyhJGYZBWTp54sw2ScDX0KPBeQVi8GuUCO73xw==</streamURL>
             <streamURL>HPmBp19H43DZtXTHGQBYmGF7DMykvuPdH9wB48DzTzDwdbPujRU/tHS6egncBoBi</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视－流畅" type="1" l="zhejiang,zhejiang" geo="北京,上海,浙江,杭州,深圳,广州">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视－流畅" type="1" l="zhejiang,zhejiang" geo="北京,上海,浙江,杭州,深圳">
             <streamURL>AyBSOkKn++4qNcFqrQUNoX1kIsSJIBZu9tvdl7UB9H+G6bZyufHmZmCxL0jvKihbSICRZ9LtK0Zj+kDrMfWCSLjAlpxC9xXuLHtzkkRO5kG2YwX1iUYLhUi4ZpuaGm/vcNmzMvAgkqd9w0v8Kz7zCA==</streamURL>
             <streamURL>mGL0YAHl/tcUOadoi8JX4/2spEpZJ1BICWxDR6Yr1l7mVN3DFpKCZWpdBVIYsA8Z</streamURL>
             <streamURL>urYmzeMZ5MWVT4VPyMQ27sJH1aZ9A4VQ7mk1fII+xeCJEZCsfU4/VNrt3CV/ha/DcvCS5/gXFjhrqsajmebYmgI81M6Mnq5BTzdcPys0QbY=</streamURL>
@@ -87,7 +87,7 @@
             <streamURL>eCf0k3Dq2T7JDQd2JY6w+fKHTbXFax4NXj0QXv4nn+GLHw9OPVXKSbd74bfkdKWypkMOOV0eLbR/dXKzTQIy7w==</streamURL>
             <streamURL>OLT0iGxOBzk+kt5SvKQQqfoFd/F+2J47ugJ1KTDrDU6ykBHm49Ke61RtIfYSxo5xCaI6BHJ0enSIu6wWvmt/og==</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-anhui1.png" name="安徽卫视－高清" type="1" l="anhui,anhui" geo="北京,上海,深圳,广州,合肥">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-anhui1.png" name="安徽卫视－高清" type="1" l="anhui,anhui" geo="北京,深圳,合肥">
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tKa8JvX/XxBkEVemyXwMSCXq7pBl35G3TpEUPorlWp+lo=</streamURL>
             <streamURL>Nw7UqaauxkiUiNsKwGkzpv7skYiXGPx54bpIuH2qApEVwJnLoRzWLkJU2rpXeD/jfgocu6aHpwmMUHJ0AC0JvEVxWBzOv4GGlgDKTpaGEl5p0CbhawUvgjPp9Y6kV+FcAhhoiXhHbT4rumnnQjl0F95bkFtxcagwPLRP53HUXXS6MdQYV86lpOsBZCBuo1i/p5wWKq1iZ3l2UFtxAEwTckxe+tNN6T4lGAsDrqw8/JzlAcyMq4/091DfqAOwTdliXaCIezlL8o7+rC3L5/Vuaw==</streamURL>
             <streamURL>zvl18gmYqnxyRsgPKucRfikQ6i608mjyWLyNPXBcr/PaUScdjTZbpaKglAJ3/NBSk9/4DUZ22R1KOqDg05daAQ==</streamURL>
@@ -95,14 +95,14 @@
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6bZgx3gMZNBBPoYoGLRf4Y=</streamURL>
             <streamURL>eCf0k3Dq2T7JDQd2JY6w+XKaY7AIhu6ElXOeADDDQDBphEQqMrS+JTZMcdH3YNe7XuB1HszWcF/yB9YMiUC9WQ==</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-anhui1.png" name="安徽卫视－流畅" type="1" l="anhui,anhui" geo="北京,上海,深圳,广州,合肥">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-anhui1.png" name="安徽卫视－流畅" type="1" l="anhui,anhui" geo="北京,深圳,合肥">
             <streamURL>I2PahME/TZ7jjxBO14KNNj2okk9DbnIw6h8x+ud7CqTBOUn6NutaowDszm/nKR6D</streamURL>
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaQGJ4fcw2g7ZMF1GLFbg+aYmd6KFyscgSAp3VIcnRHJ4=</streamURL>
             <streamURL>0cBU5KNyx8Zc0nE7Ph+vhwTQqBEdZ6OnR64rbiga7FeMqd2Dw8KVnxGigDkRFKFw</streamURL>
             <streamURL>11dlwHIa0wnbX2GAgVdjZYVihjjguzs4L8IvblZF2utN52AmMYX9Y7FHGjpUVQVsfux/yWpA7aWpfM1cOF+lwwbX9y4ONzvG/7fjoljOOExwPHX3Ir4HOhtBrCjt3TPgZXuWpzOs1QorMLoSz6uxpvyeF5U3H1v6N81K9FrjRrQ=</streamURL>
             <streamURL>CBFnLsfAop1Xkz/M6SSs3ayShdxCjaobskbWdljLw3QZ8c5xJYlJDrorQP08UgQZ04LvId0Wct6vs5FkcPMmg4L8vRzdwjD9APIXbp/mUDZBhCYTUl7UJzNg/XOyE+rj</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-szmg1.png" name="深圳卫视－标清" type="2" l="shenzhen,shenzhen" geo="北京,上海,深圳,广州">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-szmg1.png" name="深圳卫视－标清" type="2" l="shenzhen,shenzhen" geo="北京,深圳">
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaUfWPBIkq1eSF11mU2NWXvHCLRcXNFle8vsgQqpkR7Yk=</streamURL>
             <streamURL>Nw7UqaauxkiUiNsKwGkzpgmcsJoJZYKQOqk71oKZNsxDwNd2+M8u5S8urklGFcjjWUdble6N563LI1WmVOMgSX5JWMXcw/WY3N2mkCg9DwsnrY2+K+EhOYeHpta/jdHvCByysCEurH5Vw+LWyWOxhN4/+68eG/LlltBddNj7KUaTsvl/MMW+wymVwWarnltMDKuI+dEI8tzZl9zooaKEaO0abWMFZ7lo4DjBUTvdl80Hcdapi01TQmaSse7Q1nK1LYcsv9hU6RxQjja48shh+Q==</streamURL>
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tKoBfhFqU6LAS+385bvPTQVQn/FL7yaPXkJtm0YWh/NKU=</streamURL>
@@ -110,32 +110,32 @@
             <streamURL>zvl18gmYqnxyRsgPKucRfikQ6i608mjyWLyNPXBcr/OOKz7gDnm6UBjoHc4VG/11w1+allXkPwhJaAO6JffnPw==</streamURL>
             <streamURL ptag="1">CBFnLsfAop1Xkz/M6SSs3ayShdxCjaobskbWdljLw3QZ8c5xJYlJDrorQP08UgQZPXFuUONKf/S6DNTHSTB754sgBYd6nzf1uQ1KMQmmv36dfdCdxrC+flHjn/5QyGrV</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-szmg1.png" name="深圳卫视－高清" type="2" l="shenzhen,shenzhen" geo="北京,上海,深圳,广州">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-szmg1.png" name="深圳卫视－高清" type="2" l="shenzhen,shenzhen" geo="北京,深圳">
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tKoBfhFqU6LAS+385bvPTQVQn/FL7yaPXkJtm0YWh/NKU=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqss5ZcX5D31ZGiq7pMnmAALSnwcKMb6+pvMymu5lO5z/uOi+TQvowQiHBYZlWvrXdbaNsyk7nXxg/jhk6cP6Lmus</streamURL>
             <streamURL ptag="3">iFyoKs/GK9FnsLyOtkfobBsae/mO6N3C/A53QADSNsl4A2x9NOlhzX6YtLCc3hxJfnpReShgLYPErE0haWTA2wCB95rqmVhRR3ODdoAK4fg=</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-guangdongnews1.png" name="广东卫视－普清" type="1" l="guangdong,guangdong" geo="北京,上海,深圳,广州,西班牙">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-guangdongnews1.png" name="广东卫视－普清" type="1" l="guangdong,guangdong">
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaRLHBS8NXo4PMjD9YochdCCTd/VoZ7M3qH1bvdxt8e7c=</streamURL>
             <streamURL>Nw7UqaauxkiUiNsKwGkzpmZRklra2KUfSW6IKyBdwFo//jrPiECLKxKLSdh2zBDKNpXZ065+oYIPkZxvCyObLmKI3HJkWsuvAxEEeRSCZk5umTnsIsRsetZ8ncJmAy3JeALWE2z5jkfOyiPv2pCpyg41ZvQb+bGyJI74ahrijEVw9FgpWbegVkGWOpU2AZgMjy+E6uHWQ+qULSCY/jtVU1U/yCIYSsyGhw/uwHwL8FbY2g/v7oneKvJWnWHslnXfHmMit5lop/hcZdBiK+G75g==</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqss5ZcX5D31ZGiq7pMnmAALSs1RClBZ1hZpm6/YexRRGq2Bno2POsCrR33z8En4xGhrQiiP2K/S9ZCxF6KJj+BFp</streamURL>
             <streamURL>3TpmI34LoLg171zWQgJPh06bWQYq2/jsoRkNFFVRRjXdq6sPYbxfpUdeEic7kQFJSi8O8jwr3UuNr7wHMk51JQ==</streamURL>
             <streamURL>CBFnLsfAop1Xkz/M6SSs3ayShdxCjaobskbWdljLw3QZ8c5xJYlJDrorQP08UgQZURaj7T/gFnQozyuP1dbITIiGArng+DOsW6tVWarsClNFwvpakw0BkFRvt6zvL45h</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-guangdongnews1.png" name="广东卫视－流畅" type="1" l="guangdong,guangdong" geo="北京,上海,深圳,广州,西班牙">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-guangdongnews1.png" name="广东卫视－流畅" type="1" l="guangdong,guangdong">
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tKzkuvAL7UDCmTKMyKgAzh+yIzw6dtRYuh4uT45Rl5cec=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqss5ZcX5D31ZGiq7pMnmAALSs1RClBZ1hZpm6/YexRRGq2Bno2POsCrR33z8En4xGhrQiiP2K/S9ZCxF6KJj+BFp</streamURL>
             <streamURL>q4lLpvRBp1OazQhOuo5HDcyvqvrfoKd45gXEp87+QztplWVkdkXxjjxs2Yvxzbk32cQxa68GUrwBbtZKeAmWDQ==</streamURL>
             <streamURL ptag="3" index="1">iFyoKs/GK9FnsLyOtkfobBsae/mO6N3C/A53QADSNsmQWhjzw6dzvhrRmYOzC+ll+AHIsr/eBVfHCdC8Cz7u2jNRqQlCnRbK5aFBBBcluoQ=</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-ctv1.png" name="重庆卫视－普清" type="1" l="chongqing,chongqing" geo="北京,上海,深圳,广州,西班牙">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-ctv1.png" name="重庆卫视－普清" type="1" l="chongqing,chongqing">
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tKGbG7BXa7AfTUvQYZD6IoUlGAJM3e3c7bnsfw0kTGwRg=</streamURL>
             <streamURL>JaqTxqAsRdckguNylWuAVkL7k8UZFvtw6N9+Wp5vPGIbqp+qZmOfsjTACuB+e4PvjWyWIoad+lW3WgLN3TlOiMeK9gIo1tazIfhJxkZbvHo=</streamURL>
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaH43CyPIvqbc/F92AJ51j8z22wkvmvr4hAxNk02lQIoU=</streamURL>
             <streamURL>RjbQC4pTMWoKdFevR3Ksx6zKZKSKWvn/xiCqzgRfoQWunoztxPJene6XFuRuT7AwIT4OplmEkeOWJ7EYJUn7jM0qHv0nnJa9UfIKIdwdEvm7XO9Op4sJkTURrBpq/IYY</streamURL>
             <streamURL>HPmBp19H43DZtXTHGQBYmLMeKvBDQTP6OwbNefwHdjkFZfn1O6TZyH44+Yrrk6/z</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-ctv1.png" name="重庆卫视－标清" type="1" l="chongqing,chongqing" geo="北京,上海,深圳,广州,西班牙">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-ctv1.png" name="重庆卫视－标清" type="1" l="chongqing,chongqing">
             <streamURL>Nw7UqaauxkiUiNsKwGkzprC9ovghuSUH51AXWOnOHubtbIpc7d3OsKG83O/n1s6CRP+mzyuHmssXaJw7xtaXUk7UKMGS/oQlj2tiB22eA0V/K04x3g4ZR2Z9AHINPoeFztHuOTHtvTw0B7KCj1xfuHHpq8D0BJ4YCfl/wDOcENtqKqmDwB0rxWjxR/KL/RtPwcQmOYaclZ0rhoO2jqB6kWgMJkiwEK2YT7AjCwP09/dj8yJEycS3UAiiFQ24HUjkTev4OPW5vouGPvS6eauCAg==</streamURL>
             <streamURL>HPmBp19H43DZtXTHGQBYmLMeKvBDQTP6OwbNefwHdjkFZfn1O6TZyH44+Yrrk6/z</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T90u5WW3WvJXO/xpZc0S190=</streamURL>
@@ -304,7 +304,7 @@
         <SubChannel iconURL="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/CCTV.svg/320px-CCTV.svg.png" name="CCTV-发现之旅">
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaQGJ4fcw2g7ZMF1GLFbg+aS+m7oe3lMIngMGmw7PJoXg=</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/CCTV.svg/320px-CCTV.svg.png" name="CCTV中学神" type="1" l=",cctv15">
+        <SubChannel iconURL="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/CCTV.svg/320px-CCTV.svg.png" name="CCTV中学生" type="1" l=",cctv15">
             <streamURL>rtmp://ams.studytv.cn/livepkgr/264</streamURL>
         </SubChannel>
         <SubChannel iconURL="" name="央广健康">
@@ -519,13 +519,13 @@
         </SubChannel>
     </Channel>
     <Channel name="重庆" type="6">
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-ctv1.png" name="重庆卫视－普清" type="1" l="chongqing,chongqing" geo="北京,上海,深圳,广州,西班牙">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-ctv1.png" name="重庆卫视－普清" type="1" l="chongqing,chongqing">
             <streamURL>Nw7UqaauxkiUiNsKwGkzprC9ovghuSUH51AXWOnOHubtbIpc7d3OsKG83O/n1s6CRP+mzyuHmssXaJw7xtaXUk7UKMGS/oQlj2tiB22eA0V/K04x3g4ZR2Z9AHINPoeFztHuOTHtvTw0B7KCj1xfuHHpq8D0BJ4YCfl/wDOcENtqKqmDwB0rxWjxR/KL/RtPwcQmOYaclZ0rhoO2jqB6kWgMJkiwEK2YT7AjCwP09/dj8yJEycS3UAiiFQ24HUjkTev4OPW5vouGPvS6eauCAg==</streamURL>
             <streamURL>HPmBp19H43DZtXTHGQBYmLMeKvBDQTP6OwbNefwHdjkFZfn1O6TZyH44+Yrrk6/z</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T90u5WW3WvJXO/xpZc0S190=</streamURL>
             <streamURL ptag="1">6zOv2vy2uwQAMbzgdQy2Xm2XC+2LZeLBml4+LRqkKOp/zpObOZHWA7BwnOw9scGZB2hkJAC9ydwaA+NdcuS+ebiadKmZx2vW/jCWXu0VJkPgdKoHcT7Brg0YJBtQ8BCrrIhovKWwqrDfVh8/CKD7Yg==</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-ctv1.png" name="重庆卫视－标清" type="1" l="chongqing,chongqing" geo="北京,上海,深圳,广州,西班牙">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-ctv1.png" name="重庆卫视－标清" type="1" l="chongqing,chongqing">
             <streamURL>RjbQC4pTMWoKdFevR3Ksx6zKZKSKWvn/xiCqzgRfoQWunoztxPJene6XFuRuT7AwIT4OplmEkeOWJ7EYJUn7jM0qHv0nnJa9UfIKIdwdEvm7XO9Op4sJkTURrBpq/IYY</streamURL>
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaH43CyPIvqbc/F92AJ51j8z22wkvmvr4hAxNk02lQIoU=</streamURL>
             <streamURL>HPmBp19H43DZtXTHGQBYmLMeKvBDQTP6OwbNefwHdjkFZfn1O6TZyH44+Yrrk6/z</streamURL>
@@ -703,17 +703,17 @@
         </SubChannel>
     </Channel>
     <Channel name="广东" type="7">
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-guangdongnews1.png" name="广东卫视－普清" type="1" l="guangdong,guangdong" geo="北京,上海,深圳,广州,西班牙">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-guangdongnews1.png" name="广东卫视－普清" type="1" l="guangdong,guangdong">
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaRLHBS8NXo4PMjD9YochdCCTd/VoZ7M3qH1bvdxt8e7c=</streamURL>
             <streamURL>Nw7UqaauxkiUiNsKwGkzpmZRklra2KUfSW6IKyBdwFo//jrPiECLKxKLSdh2zBDKNpXZ065+oYIPkZxvCyObLmKI3HJkWsuvAxEEeRSCZk5umTnsIsRsetZ8ncJmAy3JeALWE2z5jkfOyiPv2pCpyg41ZvQb+bGyJI74ahrijEVw9FgpWbegVkGWOpU2AZgMjy+E6uHWQ+qULSCY/jtVU1U/yCIYSsyGhw/uwHwL8FbY2g/v7oneKvJWnWHslnXfHmMit5lop/hcZdBiK+G75g==</streamURL>
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tKzkuvAL7UDCmTKMyKgAzh+yIzw6dtRYuh4uT45Rl5cec=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqss5ZcX5D31ZGiq7pMnmAALSs1RClBZ1hZpm6/YexRRGq2Bno2POsCrR33z8En4xGhrQiiP2K/S9ZCxF6KJj+BFp</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-guangdongnews1.png" name="广东卫视－流畅" type="1" l="guangdong,guangdong" geo="北京,上海,深圳,广州,西班牙">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-guangdongnews1.png" name="广东卫视－流畅" type="1" l="guangdong,guangdong">
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqss5ZcX5D31ZGiq7pMnmAALSs1RClBZ1hZpm6/YexRRGq2Bno2POsCrR33z8En4xGhrQiiP2K/S9ZCxF6KJj+BFp</streamURL>
             <streamURL ptag="3" index="1">iFyoKs/GK9FnsLyOtkfobBsae/mO6N3C/A53QADSNsmQWhjzw6dzvhrRmYOzC+ll+AHIsr/eBVfHCdC8Cz7u2jNRqQlCnRbK5aFBBBcluoQ=</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-szmg1.png" name="深圳卫视" type="2" l="shenzhen,shenzhen" geo="北京,上海,深圳,广州">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-szmg1.png" name="深圳卫视" type="2" l="shenzhen,shenzhen" geo="北京,深圳">
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaUfWPBIkq1eSF11mU2NWXvHCLRcXNFle8vsgQqpkR7Yk=</streamURL>
             <streamURL>Nw7UqaauxkiUiNsKwGkzpgmcsJoJZYKQOqk71oKZNsxDwNd2+M8u5S8urklGFcjjWUdble6N563LI1WmVOMgSX5JWMXcw/WY3N2mkCg9DwsnrY2+K+EhOYeHpta/jdHvCByysCEurH5Vw+LWyWOxhN4/+68eG/LlltBddNj7KUaTsvl/MMW+wymVwWarnltMDKuI+dEI8tzZl9zooaKEaO0abWMFZ7lo4DjBUTvdl80Hcdapi01TQmaSse7Q1nK1LYcsv9hU6RxQjja48shh+Q==</streamURL>
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tKoBfhFqU6LAS+385bvPTQVQn/FL7yaPXkJtm0YWh/NKU=</streamURL>
@@ -1097,7 +1097,7 @@
         </SubChannel>
     </Channel>
     <Channel name="浙江" type="10">
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视" type="1" l="zhejiang,zhejiang" geo="北京,上海,浙江,杭州,深圳,广州">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视" type="1" l="zhejiang,zhejiang" geo="北京,上海,浙江,杭州,深圳">
             <streamURL>HPmBp19H43DZtXTHGQBYmGF7DMykvuPdH9wB48DzTzDwdbPujRU/tHS6egncBoBi</streamURL>
             <streamURL>urYmzeMZ5MWVT4VPyMQ27lP4AQxyDzOgwExzIMNabnAoRCEE+mzxGmpyReI+B+OhWW7qY39zV2QHRNFk6KYXAw==</streamURL>
             <streamURL>AyBSOkKn++4qNcFqrQUNoX1kIsSJIBZu9tvdl7UB9H+G6bZyufHmZmCxL0jvKihbSICRZ9LtK0Zj+kDrMfWCSLjAlpxC9xXuLHtzkkRO5kG2YwX1iUYLhUi4ZpuaGm/vcNmzMvAgkqd9w0v8Kz7zCA==</streamURL>
@@ -1507,7 +1507,7 @@
         </SubChannel>
     </Channel>
     <Channel name="安徽" type="28">
-        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-anhui1.png" name="安徽卫视" type="1" l="anhui,anhui" geo="北京,上海,深圳,广州,合肥">
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-anhui1.png" name="安徽卫视" type="1" l="anhui,anhui" geo="北京,深圳,合肥">
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tKa8JvX/XxBkEVemyXwMSCXq7pBl35G3TpEUPorlWp+lo=</streamURL>
             <streamURL>11dlwHIa0wnbX2GAgVdjZYVihjjguzs4L8IvblZF2utN52AmMYX9Y7FHGjpUVQVsfux/yWpA7aWpfM1cOF+lwwbX9y4ONzvG/7fjoljOOExwPHX3Ir4HOhtBrCjt3TPgZXuWpzOs1QorMLoSz6uxpvyeF5U3H1v6N81K9FrjRrQ=</streamURL>
             <streamURL ptag="3">md1iaUBMlqDXNH75rBWN3WvS8k30fUCVVtEzCjosD5Ep0L1h5cuh8hRsVcTdOBSDBaA14Ngd0jSIpu3wybgE1ZiTz0paBC/7K3r1yJOnBxYGE9EpQJOZWuMFfd2ghZUZ</streamURL>
@@ -1708,7 +1708,7 @@
          <streamURL>SvhI6NeUuK8HYBXs+0odm2pFobdrP3pGTZsbXlixRj8J8aNOpGxwfk1FLa3jH5kgyiPibo34sS0SwtXAmSbOlxHUBwgE3KloYcBVA5gmxk4=</streamURL>
          </SubChannel>
          -->
-        <SubChannel iconURL="http://files.cnblogs.com/luxiang/hebei_Normal.ico" name="河北少儿科技" type="6">
+        <SubChannel iconURL="http://files.cnblogs.com/luxiang/hebei_Normal.ico" name="河北少儿科技" type="6" geo="北京,上海,深圳,广州">
             <streamURL>SvhI6NeUuK8HYBXs+0odm2pFobdrP3pGTZsbXlixRj8J8aNOpGxwfk1FLa3jH5kgCa70vsm0DnOdNxPTqjHOoI0H+X8DSJ8ZE42v9Z6UhTA=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://files.cnblogs.com/luxiang/hebei_Normal.ico" name="河北农民" type="3">
@@ -1773,14 +1773,12 @@
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-henantv1.png" name="河南电视剧" type="1">
             <streamURL>ERplj/3LOfp/Gts1wbFnshrb9eC8IT+3J4Xnqm8h+SVG+DytN7cTdKuQsfODRzGXqOqu1Lx1bP2cWr49swNYfhR7wRzdvEuW2LkHCo9TtB8=</streamURL>
         </SubChannel>
-        <!--
-         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-henantv1.png" name="河南新闻" type="1"  date="21" week="" bbtime="" betime="" tb="21-19:00" te="21-22:00">
-         <streamURL>ERplj/3LOfp/Gts1wbFnshrb9eC8IT+3J4Xnqm8h+SVG+DytN7cTdKuQsfODRzGX/WCpyeSbt5j9aofpXZL8bb1Oc9YRXQ9O9n/+GRAmK9g=</streamURL>
-         </SubChannel>
-         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-henantv1.png" name="河南公共" type="1">
-         <streamURL>ERplj/3LOfp/Gts1wbFnshrb9eC8IT+3J4Xnqm8h+SVG+DytN7cTdKuQsfODRzGX8hwXWTfhYashhDjphIubBC7H1Ovpd1QoKR2iUa5+KGw=</streamURL>
-         </SubChannel>
-         -->
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-henantv1.png" name="河南新闻" type="1" geo="北京,上海,深圳,广州">
+            <streamURL>ERplj/3LOfp/Gts1wbFnshrb9eC8IT+3J4Xnqm8h+SVG+DytN7cTdKuQsfODRzGX/WCpyeSbt5j9aofpXZL8bb1Oc9YRXQ9O9n/+GRAmK9g=</streamURL>
+        </SubChannel>
+        <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-henantv1.png" name="河南公共" type="1" geo="北京,上海,深圳,广州">
+            <streamURL>ERplj/3LOfp/Gts1wbFnshrb9eC8IT+3J4Xnqm8h+SVG+DytN7cTdKuQsfODRzGX8hwXWTfhYashhDjphIubBC7H1Ovpd1QoKR2iUa5+KGw=</streamURL>
+        </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-henantv1.png" name="河南新农村" type="1">
             <streamURL>ERplj/3LOfp/Gts1wbFnshrb9eC8IT+3J4Xnqm8h+SVG+DytN7cTdKuQsfODRzGXissQcUmEIZdWXWzq5tAePXnHNETxyjB8hmzgCXcZTuk=</streamURL>
         </SubChannel>
@@ -2568,7 +2566,7 @@
             <streamURL>LpnrQXANdbWfkD9zx3csNcoZPub1BpmGpTsE1aaX0k4nCqyGHgTgPhx3bkADnDtc</streamURL>
         </SubChannel>
         <!--
-         <SubChannel iconURL="" name="延边卫视" type="1">
+         <SubChannel iconURL="" name="延边卫视" type="1" geo="北京,上海,深圳,广州">
          <streamURL>XE4ZdOl4CcFVStYNV8LgIkTv8HL72QHjsnyOqAxObBw45EyvRNCpWxVL67AG/v8cCPophEJaA9RTxCwG15YoRg==</streamURL>
          </SubChannel>
          -->
@@ -3599,13 +3597,13 @@
         </SubChannel>
     </Channel>
     <Channel name="青海" type="29">
-        <SubChannel iconURL="http://files.cnblogs.com/luxiang/qinghai.ico" name="青海卫视－普清" type="1" l="qinghai,qinghai" geo="北京,上海,深圳,广州,西班牙">
+        <SubChannel iconURL="http://files.cnblogs.com/luxiang/qinghai.ico" name="青海卫视－普清" type="1" l="qinghai,qinghai" geo="北京">
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaFfwdd9v4CQXxOJD2J9z8BtZUvEtHL7JrV2twBvOF/V4=</streamURL>
             <streamURL>XE4ZdOl4CcFVStYNV8LgIkTv8HL72QHjsnyOqAxObBx5jwE7Z/dIme31Cp5WQwy/N3H6LTSZ+4C+MlEYQkzsnw==</streamURL>
             <streamURL>1eflJFQdpzScMsF/W0MYRSEsDTY8cnCFAVp7E3oIA5SKbCLBUXRVMSc/icVWXrlG</streamURL>
             <streamURL>t2A5D34AIpywK3oWNLMRmwwcPVvOqX2w50PsMOZBD4sbjigdZxow205IRJ738yfUGfpFuW6qXCf786fMjt57Zj2LlHK8rxfWI2CW+Qdm0S1yzhqO9TW0wueEKLPnsY4ocv//uiJVtvmlVSiQo+7m8Q==</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://files.cnblogs.com/luxiang/qinghai.ico" name="青海卫视－标清" type="1" l="qinghai,qinghai" geo="北京,上海,深圳,广州,西班牙">
+        <SubChannel iconURL="http://files.cnblogs.com/luxiang/qinghai.ico" name="青海卫视－标清" type="1" l="qinghai,qinghai" geo="北京">
             <streamURL>P37Qt8albxMYCifnGe8oLuu7QLRfRi3hPcRE844U2xlbS1V9a0MFuhHrcTcru2z++WEKeSJiH32kcjR3NSP4+Q39yczshw+Sxwjue7NC6KrzXNpj/AbpJ7PZ60qX7t/v</streamURL>
         </SubChannel>
         <SubChannel iconURL="" name="青海生活" type="1">
