@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.128</Version>
+    <Version>1.0.129</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -60,8 +60,8 @@
             <streamURL>gEiVHNBqRfKOSCiPUj2/a8PUONo1AQL++UIL6U24mVWRBAroTBpc51dQOYL6EBJvTEQ/dujGoQ7nADZTclT0vQ==</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://www.cnblogs.com/images/cnblogs_com/luxiang/318106/t_channel-zhejiang1.png" name="浙江卫视－标清" type="1" l="zhejiang,zhejiang" geo="北京,上海,浙江,杭州,深圳,广州">
-            <streamURL>Nw7UqaauxkiUiNsKwGkzpgmcsJoJZYKQOqk71oKZNswqpDwBK3OtTRPcABdmbInuXNsFOgoV5V3d8EkODvW8RbbETRGN4CoWBeB6qUJxfzTW7CZ/1OG/kvh9Qe35lUE/rxgXqKeMrtWxNUmaEz6Z9IZ+4ldNb6eqVdmFP1CKMm64mpexU+MPDSFOk4O4VhshSIrB0U9ng/ed9yMhCKdgHZjqHmZUUOuYA+5CgpeHYbwzOXNo5srLjvu7cTNDinShSfEz4qsfsfs0RImbkIvajQ==</streamURL>
             <streamURL>HPmBp19H43DZtXTHGQBYmGF7DMykvuPdH9wB48DzTzDwdbPujRU/tHS6egncBoBi</streamURL>
+            <streamURL>Nw7UqaauxkiUiNsKwGkzpgmcsJoJZYKQOqk71oKZNswqpDwBK3OtTRPcABdmbInuXNsFOgoV5V3d8EkODvW8RbbETRGN4CoWBeB6qUJxfzTW7CZ/1OG/kvh9Qe35lUE/rxgXqKeMrtWxNUmaEz6Z9IZ+4ldNb6eqVdmFP1CKMm64mpexU+MPDSFOk4O4VhshSIrB0U9ng/ed9yMhCKdgHZjqHmZUUOuYA+5CgpeHYbwzOXNo5srLjvu7cTNDinShSfEz4qsfsfs0RImbkIvajQ==</streamURL>
             <streamURL>HPmBp19H43DZtXTHGQBYmLMeKvBDQTP6OwbNefwHdjmbGoUYpyhJGYZBWTp54sw2ScDX0KPBeQVi8GuUCO73xw==</streamURL>
             <streamURL>RfwYeMKtplOXrKfOOT+GdiEGqEdt6uxx5Bw10mPxCZWw8ofyVMwE/jBWEM79vJz94z5buMQmLk1Obyq4t9PMEQ==</streamURL>
             <streamURL>wvwmyWi3lha9CL5zHoim0mWS3NSsDb1w+1p5LD8SaI709tR6+cLz9JKQmE7kQaVX7h/g9wpj6p0oTxiT93xgrg==</streamURL>
@@ -2161,30 +2161,32 @@
     </Channel>
     <Channel name="四川" type="23">
         <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川卫视－高清" type="1" l="sichuan,sichuan">
+            <streamURL>gEiVHNBqRfKOSCiPUj2/a9lZfV9U8M9QiJnUSKs9MoKwwbI/BfSIW/rsovL8f5cwA4Y3ExJAHhwcf+g7ul9GXg==</streamURL>
             <streamURL>PpUQKmJYbY1Vxo9+V0UlOESDqAm89rZYshSpoyLXoUllMoffKc2C43SsVdtPR2tKIy8WL+08UPlm3EtkTxp9mcc6RKVj6BB7rrrXGsxkOPE=</streamURL>
+            <streamURL>DqSkkgH72+bLR0UCa9zsFsQBJJ8rp02lRcPuRjY3xivnhqK6d/fhgue/bfIbJO1SwSMXyUGQZak6RNZI1gk2s/01NkkqVpTwC+jQqL9vtMPBEye2JO4mB+MGQtF4VeQ38sX9xeQx6CiAbXgQ72dPrg==</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T7ZNACC05FyPlVuhqtL6x/Q=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川卫视－标清" type="1" l="sichuan,sichuan">
-            <streamURL>RjbQC4pTMWoKdFevR3Ksx17Uej8+4npjiZIQPBBTJiXyHWdlPyrwS8asoyb9wqlsj37GQQ6Pnx5Hr57xNllOYnW3Btc3K6LIiOX/cNXTv/OEND8t4DUIH8IGr+7G20Y6</streamURL>
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaRLHBS8NXo4PMjD9YochdCOeCnYh0f5qH6aB+pynGdCM=</streamURL>
+            <streamURL>DqSkkgH72+bLR0UCa9zsFsQBJJ8rp02lRcPuRjY3xivnhqK6d/fhgue/bfIbJO1SwSMXyUGQZak6RNZI1gk2s/01NkkqVpTwC+jQqL9vtMPBEye2JO4mB+MGQtF4VeQ38sX9xeQx6CiAbXgQ72dPrg==</streamURL>
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaFfwdd9v4CQXxOJD2J9z8BoKjDGr0b5E4ZVdDySy7/1E=</streamURL>
+            <streamURL>RjbQC4pTMWoKdFevR3Ksx17Uej8+4npjiZIQPBBTJiXyHWdlPyrwS8asoyb9wqlsj37GQQ6Pnx5Hr57xNllOYnW3Btc3K6LIiOX/cNXTv/OEND8t4DUIH8IGr+7G20Y6</streamURL>
             <streamURL>mcIJZ98XZnH/bs8Axa/gAA6xZowT87LYIiT2O9/M8b43PPReGp+I0ZS+q5yN+BvoFP/Y8Q/LPl/aaaccHTkgSn/0kJ0UMyLpTyMMaFibZEc9B8G6HsMP8362GCkqTYib</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川公共" type="1">
-            <streamURL>rtmp://rtmpsctv01.sctv.com/SRT_Live/SCTV9_wsx</streamURL>
+            <streamURL>rtmp://rtmpsctv09.sctv.com/SRT_Live/SCTV9_wsgx</streamURL>
             <streamURL>9Nu1P7PReMMMAzTgC8rshrjpZiN06kiIU1fLPgtPhu7ni1gjtbaOgltsEjvem6ElHW4VowMZwNIb5H32jH7Xhw==</streamURL>
             <streamURL>rtmp://rtmpsctv01.sctv.com:1935/SRT_Live/SCTV9_M</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川新闻" type="1">
-            <streamURL>rtmp://rtmpsctv01.sctv.com/SRT_Live/SCTV4_wsx</streamURL>
+            <streamURL>rtmp://rtmpsctv04.sctv.com/SRT_Live/SCTV4_wsgx</streamURL>
             <streamURL>9Nu1P7PReMMMAzTgC8rshrjpZiN06kiIU1fLPgtPhu64dLw1DbWcGl22JvHLsOjPRNn9Os5q2DJUcj0Q8gAK0A==</streamURL>
             <streamURL>rtmp://rtmpsctv01.sctv.com:1935/SRT_Live/SCTV4_M</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川经济" type="1">
-            <streamURL>rtmp://rtmpsctv01.sctv.com/SRT_Live/SCTV3_wsx</streamURL>
+            <streamURL>rtmp://rtmpsctv03.sctv.com/SRT_Live/SCTV3_M</streamURL>
             <streamURL>9Nu1P7PReMMMAzTgC8rshrjpZiN06kiIU1fLPgtPhu5ySGr/GntjOwK5C9CWhBXpAdXwPICbyRvcj2V2lqKQcg==</streamURL>
             <streamURL>rtmp://rtmpsctv01.sctv.com:1935/SRT_Live/SCTV3_M</streamURL>
-            <streamURL ptag="3">iFyoKs/GK9FnsLyOtkfobBsae/mO6N3C/A53QADSNslAwnN7ZiAGDfFNgEmfCqObrd8Xqd9scv9qAGC2wVVy8XMA9SHMD9Javx+jzPMp5Xs=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川科教" type="1">
             <streamURL>rtmp://rtmp.sctv.com/SRT_Live/SCJY_N6</streamURL>
@@ -2192,27 +2194,22 @@
             <streamURL>rtmp://rtmpsctv01.sctv.com:1935/SRT_Live/SCJY_M</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川文化" type="1">
-            <streamURL>rtmp://rtmpsctv01.sctv.com/SRT_Live/SCTV2_wsx</streamURL>
+            <streamURL>rtmp://rtmpsctv02.sctv.com/SRT_Live/SCTV2_wsgx</streamURL>
             <streamURL>9Nu1P7PReMMMAzTgC8rshrjpZiN06kiIU1fLPgtPhu6wt85HwaRhiYjkImukn0ZchKKADGQWYUGC0yzgLOW8Lw==</streamURL>
             <streamURL>rtmp://rtmpsctv01.sctv.com:1935/SRT_Live/SCTV2_M</streamURL>
         </SubChannel>
-        <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川经视" type="1">
-            <streamURL>rtmp://rtmpsctv01.sctv.com/SRT_Live/SCTV3_wsx</streamURL>
-            <streamURL>9Nu1P7PReMMMAzTgC8rshrjpZiN06kiIU1fLPgtPhu5ySGr/GntjOwK5C9CWhBXpAdXwPICbyRvcj2V2lqKQcg==</streamURL>
-            <streamURL>rtmp://rtmpsctv01.sctv.com:1935/SRT_Live/SCTV3_M</streamURL>
-        </SubChannel>
         <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川影视" type="1">
-            <streamURL>rtmp://rtmpsctv01.sctv.com/SRT_Live/SCTV5_wsx</streamURL>
+            <streamURL>rtmp://rtmpsctv05.sctv.com/SRT_Live/SCTV5_wsgx</streamURL>
             <streamURL>9Nu1P7PReMMMAzTgC8rshrjpZiN06kiIU1fLPgtPhu6smzSx6faki6wjk8GwPD5TqN8m/0FCP/1zUIWn3q10hw==</streamURL>
             <streamURL>rtmp://rtmpsctv01.sctv.com:1935/SRT_Live/SCTV5_M</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川星空购物" type="1">
-            <streamURL>rtmp://rtmpsctv01.sctv.com/SRT_Live/SCTV6_wsx</streamURL>
+            <streamURL>rtmp://rtmpsctv06.sctv.com/SRT_Live/SCTV6_wsgx</streamURL>
             <streamURL>9Nu1P7PReMMMAzTgC8rshrjpZiN06kiIU1fLPgtPhu7iv/woGVNzE6hY+vLzCgdy6Z8sNzcS9bQdr1rtOtZ5Pg==</streamURL>
             <streamURL>rtmp://rtmpsctv01.sctv.com:1935/SRT_Live/SCTV6_M</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://images.cnblogs.com/cnblogs_com/luxiang/318106/r_channel-sctv1.png" name="四川妇女儿童" type="1">
-            <streamURL>rtmp://rtmpsctv01.sctv.com/SRT_Live/SCTV7_wsx</streamURL>
+            <streamURL>rtmp://rtmpsctv07.sctv.com/SRT_Live/SCTV7_wsgx</streamURL>
             <streamURL>9Nu1P7PReMMMAzTgC8rshrjpZiN06kiIU1fLPgtPhu7qOGo+nCxbsLvNNeIh8o4vJDnc0F5LXteZvRlwkzi7Zg==</streamURL>
             <streamURL>rtmp://rtmpsctv01.sctv.com:1935/SRT_Live/SCTV7_M</streamURL>
         </SubChannel>
@@ -3723,7 +3720,7 @@
         <SubChannel iconURL="" name="网络棋牌" type="4">
             <streamURL>rtsp://218.25.11.13:554/wlqp</streamURL>
         </SubChannel>
-        <SubChannel iconURL="" name="生命电视3" type="1" geo="北京,天津,上海,长沙,广东,杭州,香港,澳门">
+        <SubChannel iconURL="" name="生命电视2" type="1" geo="北京,天津,上海,长沙,广东,杭州,香港,澳门">
             <streamURL>vezkUgwOfHApeHuDN0qUTc3eErb86WoWiNE4Ud5EGhvjtoTxIYU/HzmeyDOSLvkSturU5ANsXujUCP3AjF+7dya19ThRXmjC1UitaYfwIjXtcoizVRNdQAOlNg/cScTAxT5jMf3Lx7G7LrZrEq92aljHvijWFsuiWPniYiAMa/s=</streamURL>
         </SubChannel>
         <SubChannel iconURL="" name="唯心亚洲" type="1" geo="北京,天津,上海,长沙,广东,杭州,香港,澳门">
