@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.145</Version>
+    <Version>1.0.146</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -203,16 +203,17 @@
     </Channel>
     <Channel name="央视" type="2">
         <SubChannel iconURL="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/CCTV.svg/320px-CCTV.svg.png" name="CCTV1－流畅" type="1" l="cctv1,cctv1">
-            <streamURL>9HshQphjZxZBEC1d/01TWtTMnlylBUSI6dVrXHvWyup5mPJ6uWD1nP52IYgfsawdiL+dvX8oVzKQ1USrsBd2dN6njXqdipG/IH9laf7T+1zxBIK+NOyWg0khYnydtM3xd22bQ7X+BEPX9PjTgG23pnpZIzBu4iknUnzLO4iE3e1938bU1tSD3ttEYvQ6zPynyqz7d+E4L8FQNGkf+YeZi/6HRkY+MfjzzT0qHWPUVvY=</streamURL>
+            <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaRLHBS8NXo4PMjD9YochdCCaZMffBMfXr3pA/o0oAGJU=</streamURL>
+            <streamURL>bMN+oF8mo/S/9MpCxKVQ7I0r5c37IkVs8tGkd4S4dxYMq/2h6R+FwWsMVShoK6PnW4Ne/eT+kb7S+7aytvyctms6FcLgGqRGcfluJZFCeiYamqIJVSHVEabbZpoitJT85Ire/lMtZyevEgQmYP2Rwg==</streamURL>
             <streamURL>WhG/54xT6HFCwRiebqrh96aRr5WA+V9y0w25i+EM8izLlQhrTjnIfhOwQZLms8y6</streamURL>
             <streamURL>DqSkkgH72+bLR0UCa9zsFsQBJJ8rp02lRcPuRjY3xivnhqK6d/fhgue/bfIbJO1STsfu9u+OHuNsmOsBC156WBC47jVoWeigIO77LzWI1j55NIlzY9yifuUFnfZLE5DyH7P2wiQr7osiRoTjf+zIxQ==</streamURL>
             <streamURL>gEiVHNBqRfKOSCiPUj2/a9lZfV9U8M9QiJnUSKs9MoKgX0yndhFa6TVZUFyN8KhnUfqMaSxHO8aV6GXs4YPzKg==</streamURL>
             <streamURL>AyBSOkKn++4qNcFqrQUNoX1kIsSJIBZu9tvdl7UB9H+G6bZyufHmZmCxL0jvKihbSICRZ9LtK0Zj+kDrMfWCSJR9q9fK3eVGVO0rC2yhGgHfx2MMGcqv2iq4iUJZGp2ZcFGM0VnrzEEy629ho82OwQ==</streamURL>
             <streamURL ptag="1">7VOt50IyF3TendqIWDHNC3+dL+SkUW915HyrEz/RA3xdXvG1qKFdqrIh5qvnlXph9gZGKH7/UShOaRxD1vA5gg==</streamURL>
+            <streamURL>9HshQphjZxZBEC1d/01TWtTMnlylBUSI6dVrXHvWyup5mPJ6uWD1nP52IYgfsawdiL+dvX8oVzKQ1USrsBd2dN6njXqdipG/IH9laf7T+1zxBIK+NOyWg0khYnydtM3xd22bQ7X+BEPX9PjTgG23pnpZIzBu4iknUnzLO4iE3e1938bU1tSD3ttEYvQ6zPynyqz7d+E4L8FQNGkf+YeZi/6HRkY+MfjzzT0qHWPUVvY=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/CCTV.svg/320px-CCTV.svg.png" name="CCTV1－普清" type="1" l="cctv1,cctv1">
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1TyLpfILJJGwBtN1aCmMUk6Q=</streamURL>
-            <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaRLHBS8NXo4PMjD9YochdCCaZMffBMfXr3pA/o0oAGJU=</streamURL>
             <streamURL>bMN+oF8mo/S/9MpCxKVQ7I0r5c37IkVs8tGkd4S4dxYMq/2h6R+FwWsMVShoK6PnW4Ne/eT+kb7S+7aytvyctms6FcLgGqRGcfluJZFCeiYamqIJVSHVEabbZpoitJT85Ire/lMtZyevEgQmYP2Rwg==</streamURL>
             <streamURL>rtmp://58.200.131.2:1935/livetv/cctv1hd</streamURL>
             <streamURL>rtmp://202.117.80.19:1935/live/live4</streamURL>
@@ -223,11 +224,12 @@
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaH43CyPIvqbc/F92AJ51j84Ge1lsTDS3mbtmFF5LJoiE=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/CCTV.svg/320px-CCTV.svg.png" name="CCTV3－普清" type="1" l="cctv3,cctv3">
-            <streamURL>9HshQphjZxZBEC1d/01TWtTMnlylBUSI6dVrXHvWyup5mPJ6uWD1nP52IYgfsawdfCb9bYLIh7ccFHIXPHY464nlV7JMqoH2pBFSJdvUPPz2TncOzAYNy3V7EoS9o1YAAbdF1yMs8wqkOz6XLgsE5X/ExD6jz7lGdkz+EOExtGMFNPVwjmQ5Y7lwaww/Kx2zuBc+srU9n3Nau3MCJSxdTpy3b38Qwlx8Z+3WE2Ql3Nw=</streamURL>
+            <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaQGJ4fcw2g7ZMF1GLFbg+aTAGhradxP6VbST0IVvfvpw=</streamURL>
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaRLHBS8NXo4PMjD9YochdCKYEe1WwTI8gUiH/v2dyhEQ=</streamURL>
             <streamURL ptag="1">7VOt50IyF3TendqIWDHNC3+dL+SkUW915HyrEz/RA3xdXvG1qKFdqrIh5qvnlXphJ5/LCoLHxqmQQKcxO7avog==</streamURL>
             <streamURL>HPmBp19H43DZtXTHGQBYmAiAWc8mqOlAFvoT6Q6xcKfO1Liisil5RusC16tmpxf5DEntJTPTfgVjTJH8jTcUVA==</streamURL>
             <streamURL>rtmp://58.200.131.2:1935/livetv/cctv3hd</streamURL>
+            <streamURL>9HshQphjZxZBEC1d/01TWtTMnlylBUSI6dVrXHvWyup5mPJ6uWD1nP52IYgfsawdfCb9bYLIh7ccFHIXPHY464nlV7JMqoH2pBFSJdvUPPz2TncOzAYNy3V7EoS9o1YAAbdF1yMs8wqkOz6XLgsE5X/ExD6jz7lGdkz+EOExtGMFNPVwjmQ5Y7lwaww/Kx2zuBc+srU9n3Nau3MCJSxdTpy3b38Qwlx8Z+3WE2Ql3Nw=</streamURL>
         </SubChannel>
         <SubChannel iconURL="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/CCTV.svg/320px-CCTV.svg.png" name="CCTV13－普清" type="1" l="cctv13,cctv13">
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6wjhsw1w/Cmmx0Bb+8JzA4=</streamURL>
@@ -3740,7 +3742,7 @@
         <SubChannel iconURL="" name="M20 TV" type="1" geo="北京,天津,上海,长沙,广东,韩国,杭州,香港,澳门,美国">
             <streamURL>ztcW9IJASdPY4I5hoFnHu9rO49SR4YnNb47jM2dGA9I/zhrEjvAXtLgiNZGjBDAayhvcZmRE+giTYO2TcvsDuzFlAEyQla1cqmAuHbKX574=</streamURL>
         </SubChannel>
-        <SubChannel iconURL="" name="生命电视6" type="1" geo="北京,天津,上海,长沙,广东,杭州,香港,澳门">
+        <SubChannel iconURL="" name="生命电视7" type="1" geo="北京,天津,上海,长沙,广东,杭州,香港,澳门">
             <streamURL>vezkUgwOfHApeHuDN0qUTc3eErb86WoWiNE4Ud5EGhvjtoTxIYU/HzmeyDOSLvkSturU5ANsXujUCP3AjF+7dya19ThRXmjC1UitaYfwIjXtcoizVRNdQAOlNg/cScTAxT5jMf3Lx7G7LrZrEq92aljHvijWFsuiWPniYiAMa/s=</streamURL>
         </SubChannel>
         <SubChannel iconURL="" name="唯心亚洲" type="1" geo="北京,天津,上海,长沙,广东,杭州,香港,澳门">
