@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.7.5" isValid="0">
+<SearchEngines version="1.7.6" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -449,7 +449,7 @@
                  <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
                      <Tyies>
                          <PrefixChekerStr>
-                             <Value>left" href="</Value>
+                             <Value>m3u8" value="</Value>
                          </PrefixChekerStr>
                          <SuffixChekerStr>
                              <Value>"></Value>
