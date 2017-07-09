@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.7.6" isValid="0">
+<SearchEngines version="1.7.7" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -441,7 +441,67 @@
              </ReponseHandler>
          </VideoUrlConvert>
          
-         <VideoUrlConvert Name="YITV">
+         <VideoUrlConvert Name="YanChengWang">
+             <OriURL>
+                 <IDCheckerStr value="0515yc.cn"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>m3u8":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>","</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="ChengWangZaiXian">
+             <OriURL>
+                 <IDCheckerStr value="cditv.cn"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>ios_url":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>","</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="CutvWang">
+             <OriURL>
+                 <IDCheckerStr value="cutv.com"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>liveurl":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>","</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="YueTV">
              <OriURL>
                  <IDCheckerStr value="3gtv.net"/>
              </OriURL>
@@ -449,10 +509,50 @@
                  <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
                      <Tyies>
                          <PrefixChekerStr>
-                             <Value>m3u8" value="</Value>
+                             <Value>高清","resUrl":"</Value>
                          </PrefixChekerStr>
                          <SuffixChekerStr>
-                             <Value>"></Value>
+                             <Value>","</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="Huaianzhibo">
+             <OriURL>
+                 <IDCheckerStr value="habctv.com"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>"m3u8":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>","</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="Zhihuiwuxian">
+             <OriURL>
+                 <IDCheckerStr value="wifiwx.com"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>"m3u8":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>","</Value>
                          </SuffixChekerStr>
                          <TargetURLTemplate>
                              <Value>%@</Value>
