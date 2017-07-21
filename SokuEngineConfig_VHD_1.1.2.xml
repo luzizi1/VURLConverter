@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.7.7" isValid="0">
+<SearchEngines version="1.7.8" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -441,9 +441,10 @@
              </ReponseHandler>
          </VideoUrlConvert>
          
+         
          <VideoUrlConvert Name="YanChengWang">
              <OriURL>
-                 <IDCheckerStr value="0515yc.cn"/>
+                 <IDCheckerStr value="mobile."/>
              </OriURL>
              <ReponseHandler>
                  <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
@@ -553,6 +554,46 @@
                          </PrefixChekerStr>
                          <SuffixChekerStr>
                              <Value>","</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="Shangyu">
+             <OriURL>
+                 <IDCheckerStr value="cztvcloud.com"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>"</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="Taichou">
+             <OriURL>
+                 <IDCheckerStr value="576tv.com"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>"</Value>
                          </SuffixChekerStr>
                          <TargetURLTemplate>
                              <Value>%@</Value>
