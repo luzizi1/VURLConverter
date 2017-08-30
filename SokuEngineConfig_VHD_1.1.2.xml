@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.7.8" isValid="0">
+<SearchEngines version="1.7.9" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -591,6 +591,26 @@
                      <Tyies>
                          <PrefixChekerStr>
                              <Value>":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>"</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="QQCOM">
+             <OriURL>
+                 <IDCheckerStr value="qq.com"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>playurl":"</Value>
                          </PrefixChekerStr>
                          <SuffixChekerStr>
                              <Value>"</Value>
