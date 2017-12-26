@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.7.9" isValid="0">
+<SearchEngines version="1.8.0" isValid="0">
     
     <SearchEngine Name="YouKu">
         <UrlPaths>
@@ -374,40 +374,7 @@
                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
                     <Tyies>
                         <PrefixChekerStr>
-                            <Value>"hds2":"</Value>
-                        </PrefixChekerStr>
-                        <SuffixChekerStr>
-                            <Value>",</Value>
-                        </SuffixChekerStr>
-                        <TargetURLTemplate>
-                            <Value>%@</Value>
-                        </TargetURLTemplate>
-                    </Tyies>
-                    <Tyies>
-                        <PrefixChekerStr>
                             <Value>"hls4":"</Value>
-                        </PrefixChekerStr>
-                        <SuffixChekerStr>
-                            <Value>",</Value>
-                        </SuffixChekerStr>
-                        <TargetURLTemplate>
-                            <Value>%@</Value>
-                        </TargetURLTemplate>
-                    </Tyies>
-                    <Tyies>
-                        <PrefixChekerStr>
-                            <Value>ipad":"</Value>
-                        </PrefixChekerStr>
-                        <SuffixChekerStr>
-                            <Value>",</Value>
-                        </SuffixChekerStr>
-                        <TargetURLTemplate>
-                            <Value>%@</Value>
-                        </TargetURLTemplate>
-                    </Tyies>
-                    <Tyies>
-                        <PrefixChekerStr>
-                            <Value>iphone":"</Value>
                         </PrefixChekerStr>
                         <SuffixChekerStr>
                             <Value>",</Value>
