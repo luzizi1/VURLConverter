@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.216</Version>
+    <Version>1.0.217</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -358,7 +358,7 @@
             <streamURL>tzYAQkdCkX4PHABkuhboek8W1zSRyxB+lKnkJu1tLRP5UXO+yXkcmrAVsBUG+P0932P2InlW8yLF1GRUjXTjYVvgiSwk2Vx9HycHbu5vU9c=</streamURL>
             <streamURL>6gqdHEZ5ehcV1s3QIb5bu/8jBETWl9i2N8NGCFVbN7ORzCMpC76x5eYa/Rq/EwJYsn9WeckY3+edZNwU/RKbjFVfqXVlGjLa6FCQ1mfuV72Fh5BLDl5XumlScKC2vcLCsX1vWnvofL4F36vmvZPKTg==</streamURL>
         </SubChannel>
-        <SubChannel iconURL="eEfNZWoa+mP3IjYTn423sfmk8eSgt1NbN4wU9vjN9hPvQHRs99avnrwce3m3aQDqp9X3yxPPZ0/1eVVDXGijPAW5MY2yQRzvw3C2mHFHTIK4ynYpKHeJ/1nbxL1CjIAu" name="CCTV9－纪录" l="cctvjilu">
+        <SubChannel iconURL="eEfNZWoa+mP3IjYTn423sfmk8eSgt1NbN4wU9vjN9hPvQHRs99avnrwce3m3aQDqp9X3yxPPZ0/1eVVDXGijPAW5MY2yQRzvw3C2mHFHTIK4ynYpKHeJ/1nbxL1CjIAu" name="CCTV9－纪录" l="cctvjilu" geo="北京,天津">
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaFfwdd9v4CQXxOJD2J9z8BrE7HwtINAp4bCNrVJipipY=</streamURL>
             <streamURL>5/efCP6quyWBp8v106lTWXCffMD5eUDoxsnMHNYGh9EvClTEW+PrrxxEdND8+2ik</streamURL>
             <streamURL>3qYmU+XG6EIPB2q0iXYOK/334Up8QMx/TqGi1gy53S+pNlQ9HYGc+IyhC9ppQwws</streamURL>
