@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.8.0" isValid="0">
+<SearchEngines version="1.8.1" isValid="0">
     
+    <SearchEngine Name="cntvtvtvtv">
+        <GetMode>0</GetMode>
+        <GetList>1|||program</GetList>
+        <GetTime>showTime</GetTime>
+        <GetTitle>t</GetTitle>
+    </SearchEngine>
+    <SearchEngine Name="yuntutututu">
+        <GetMode>0</GetMode>
+        <GetList></GetList>
+        <GetTime>showTime</GetTime>
+        <GetTitle>t</GetTitle>
+    </SearchEngine>
+    <SearchEngine Name="cibnbnbnbn">
+        <GetMode>0</GetMode>
+        <GetList>data===0|||epg</GetList>
+        <GetTime BeginIndex="11" EndIndex="5">start</GetTime>
+        <GetTitle>title</GetTitle>
+    </SearchEngine>
+    <SearchEngine Name="tianyishixun">
+        <GetMode>0</GetMode>
+        <GetList>info</GetList>
+        <GetTime BeginIndex="11" EndIndex="5">starttime</GetTime>
+        <GetTitle>title</GetTitle>
+    </SearchEngine>
+    <SearchEngine Name="jiuyaokandianshi">
+        <GetMode>1</GetMode>
+        <GetList>body//li</GetList>
+        <GetTime EndIndex="5"></GetTime>
+        <GetTitle BeginIndex="6"></GetTitle>
+    </SearchEngine>
+    <SearchEngine Name="zhejiangguanwang">
+        <GetMode>1</GetMode>
+        <GetList>body//div//div//div//div|id=tagContent//div|class=tagContent//div|class=jmd-text//div|class=item</GetList>
+        <GetTime>h3</GetTime>
+        <GetTitle>h4</GetTitle>
+    </SearchEngine>
     <SearchEngine Name="YouKu">
         <UrlPaths>
             <YoukuVideo PageSize="10">http://www.soku.com/search_video/q_%@_orderby_2_page_%@_pagesize_10</YoukuVideo>
@@ -366,7 +402,7 @@
         </VideoUrlConvert>
         
         
-         <VideoUrlConvert Name="CNTV">
+        <VideoUrlConvert Name="CNTV">
             <OriURL>
                 <IDCheckerStr value=".cntv.c"/>
             </OriURL>
@@ -374,7 +410,7 @@
                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
                     <Tyies>
                         <PrefixChekerStr>
-                            <Value>"hls4":"</Value>
+                            <Value>AUTH=</Value>
                         </PrefixChekerStr>
                         <SuffixChekerStr>
                             <Value>",</Value>
@@ -385,7 +421,7 @@
                     </Tyies>
                 </Reponse>
             </ReponseHandler>
-         </VideoUrlConvert>
+        </VideoUrlConvert>
          
          <VideoUrlConvert Name="MIGU">
              <OriURL>
