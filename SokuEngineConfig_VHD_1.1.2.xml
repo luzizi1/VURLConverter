@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.8.1" isValid="0">
+<SearchEngines version="1.8.2" isValid="0">
     
     <SearchEngine Name="cntvtvtvtv">
         <GetMode>0</GetMode>
@@ -625,6 +625,88 @@
                  </Reponse>
              </ReponseHandler>
          </VideoUrlConvert>
+         <VideoUrlConvert Name="JLNTVCN">
+             <OriURL>
+                 <IDCheckerStr value="jlntv.cn"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>"m3u8":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>","</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="FJTVNET">
+             <OriURL>
+                 <IDCheckerStr value="fjtv.net"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>"m3u8":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>","</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="HLJTVCOM">
+             <OriURL>
+                 <IDCheckerStr value="hljtv.com"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>"m3u8":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>","</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="HOOLOTV">
+             <OriURL>
+                 <IDCheckerStr value="hoolo.tv"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>playlist.m3u8?_upt=</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>"</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         
+         
  
  <VideoUrlConvert Name="SinaWeiboShortLink">
             <OriURL>
