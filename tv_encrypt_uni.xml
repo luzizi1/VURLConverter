@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Channels>
-    <Version>1.0.231</Version>
+    <Version>1.0.233</Version>
     <isClearFavCh>0</isClearFavCh>
     <isClearRecentCh>0</isClearRecentCh>
     <isClearCustomCh>0</isClearCustomCh>
@@ -66,14 +66,14 @@
             <streamURL ptag="3">kpw7btdPYUb/V7UD65BB6F2+5NJ9bGYv2ZNXEyl1TITfyOo073fz6lYwIo3d8okOIPuXLdCRSLs3w/69pw3PBn2g5nR7CPcSko/BLoAz6LOjYNc5jN4YvKA89H1OzfhI</streamURL>
         </SubChannel>
         <SubChannel iconURL="yl+kkUVpfZItgYIpV9Y4c5PRTh/kfAS1mBgWPLyJZ1KTICAPW0p/kwfU3siS4uwEEBt+A3Yb/UggJpgIPRG4zi4hEp31MzDmlIm48yHep6U=" name="安徽卫视－流畅" geo="11,31,3,1,6,合肥" l="anhui">
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBb0K3JbiFJonNDjpSxG5ov6H9/Z30amSGuESGiPirzrODihNITq2z9I/FnakCgeJj89JCS4rnyLjMWLv+rKpHYt450QHgBTnZEz0FVFYcGURR1mZM6jZsyXxOTk6Rgp+AeyqAKSQCIiefzUGHlfsecIrTO2sEKaogufhcOphw4WBRO+bRKdHGvAMS1exnjMuOQ=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBb0K3JbiFJonNDjpSxG5ov6H9/Z30amSGuESGiPirzrOHzdH6QcvOLFB3zOvLBfZxtB9XXK/VvUk3FNcZSG6kcW+F9tnPycbKVkqM8FsiOBCGYdbKXoQzfsRu0vQ8vXujhWL0XSRXlPXHdD4vXjc0gzdP9021W0ixBG4fa86P2jcpjY9FKkDE/mUq0F64XKnRs=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peDzrym9iphoN0RqUS/VCNAlE2wAaTItaTB9aivaGSjFm7GPhOSrFKImeH9lX08yE0hw==</streamURL>
             <streamURL>9FKIyxLAN0cYxQGRagQRuTVn2ER5jI5qc9Bz4g7uUB1tbJOWAylaCjTfkxZXdbqVhaZp18cKgok3mQbPx3EZyQ==</streamURL>
             <streamURL ptag="1">hrOdhzdxo01tOmq3WnMUiqWO1cDeGljmD2b/GXPSHhVj4m00g9YjvKm2GCQE7SIaMgUHMus3Bvapkkpng58v+A==</streamURL>
             <streamURL ptag="3">kpw7btdPYUb/V7UD65BB6F2+5NJ9bGYv2ZNXEyl1TITfyOo073fz6lYwIo3d8okOIPuXLdCRSLs3w/69pw3PBn2g5nR7CPcSko/BLoAz6LOjYNc5jN4YvKA89H1OzfhI</streamURL>
         </SubChannel>
         <SubChannel iconURL="yl+kkUVpfZItgYIpV9Y4c5PRTh/kfAS1mBgWPLyJZ1KTICAPW0p/kwfU3siS4uwEEBt+A3Yb/UggJpgIPRG4zqfhCD89nMsrq8JMk74h3KaS6QWiugH0kuwqnqhvb+5U" name="广东卫视－高清" l="guangdong" geo="11,1">
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBbmPCHxkAcQGBEAsiZGfRQE66tUjsyhY0kxt8SCHq+i/sx4c/GUTYz+q8K5FRX3S5f4pu6Y00Z83V9FPNpdIzU57naoehU/dnHtWxIbgsy83kQUQ72CubPcUPz/XJjV7HjXMHB5AtGEQDuvx3C67pE3C5ufpQ8eXpNmwSVBpo5a/I5blTRwSZ2kmbbN/e1R780=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBbmPCHxkAcQGBEAsiZGfRQE66tUjsyhY0kxt8SCHq+i/nFfg3yPGUhvOlAXgMbrNmo9ObunVXu4Kw6uEivKsPXPGuIFtszxei1Pj8XWSiTlqMF4154Ufoy9ljeGBY2TslvC2zVrGyPktN6vbrQpuMiUdqaosuybpqYQ5zDHErB4jksSF4tJfZ149a8hOVldPjg=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peD+WM0lFM0YWieO/rHzQT3jUQUX0hAT2NiEU02ANZItA6gwUVL78nE3VIoat9r8zWqw==</streamURL>
             <streamURL ptag="3">vYqNuwrwCAhW9GN3WtsNbmbWrux4Lcv5I1FFonMBouyAQUaXp+NJ2xaQNzYu1Tyt2ZbmTu4Hn0DZmi9gPNza+mDdZnJVRB0y2RE7fcJcsNvQN3EKIxarmIVPFw5s1vHRRqeV1CAscrL9H/I6dMhaMfvqe1W8GV2cpNnWklEGieE=</streamURL>
             <streamURL>dHaONthP+9VWo0/TG9kFSfdsgRDme7+BUk4l0VEcp35zjWCfzSni6chy2G5FJAtJk/f/MQmzxWYkyBnkkG/IlGeTfv87fhhMY8XoSChXJUI=</streamURL>
@@ -87,15 +87,14 @@
             <streamURL ptag="1">hrOdhzdxo01tOmq3WnMUiqWO1cDeGljmD2b/GXPSHhWWZFcXfADV6JdcQx3iU0vn8mLw7u2EjzjBEhsRrk5cmQ==</streamURL>
         </SubChannel>
         <SubChannel iconURL="yl+kkUVpfZItgYIpV9Y4c5PRTh/kfAS1mBgWPLyJZ1KTICAPW0p/kwfU3siS4uwEEBt+A3Yb/UggJpgIPRG4zsEFP30sH5G7OYUFGMKIwzM=" name="重庆卫视－高清" l="chongqing" geo="11,重庆">
-            <streamURL>8g6JJtrL93XW6UhdRegkfy0dJFfY8oW98eAIcybUquU9poMlFQAEBOKMCEsVTnCD</streamURL>
-            <streamURL>8g6JJtrL93XW6UhdRegkfy0dJFfY8oW98eAIcybUquUNsZ7iO2YDC0AbrsdqORFx</streamURL>
+            <streamURL>EkqbEQ5sBX+dRjJnkMf9VuyxssSz71suwGWGWh/SW+dtEGWzYz0tDldStSkxPkFLpiPzuxWMalaLKUIPWaqL2g==</streamURL>
             <streamURL ptag="5">3i3Vr5NkelYYbnN+izfOuSSbBPRtYe3pTr6ouM3gVHi5MYnCvWLhwEKFNYcALeikKAoECQMNjOYvANMsTcXiRJ2nWuUOuBxDaGOf5N8taoa0PsfLkIaQEz6XEBj60Yb+MQXRhfU1ydRyMFhvKGoZmjxw+T2lAk9f+DPSZVU4ApNxH7OKKpi5JsvmMVOIVVTH</streamURL>
             <streamURL ptag="5">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7Fca1VYktoYi/WQzjDAhqQPRLhiRffjQuXFQZJWSx7Fo1Tads5rb/nmDyfUbAaBioZ4Zgef0jP7vlcij0cE4Ai0PcU7QtKKnd6ihkTTjjkw6mMA3H380qIhaqyS1FPeBYwEs</streamURL>
             <streamURL>hrOdhzdxo01tOmq3WnMUiqWO1cDeGljmD2b/GXPSHhXdtpZI1IUeouh0a3kUvi9LeHHQuKCGZVEJ9odNBhDVZQ==</streamURL>
             <streamURL>wvwmyWi3lha9CL5zHoim0mWS3NSsDb1w+1p5LD8SaI4nXKI2+RWoQ4HjMEsel04FaFRHqgt7SqCq2ZkQoVyQbQ==</streamURL>
         </SubChannel>
         <SubChannel iconURL="yl+kkUVpfZItgYIpV9Y4c5PRTh/kfAS1mBgWPLyJZ1KTICAPW0p/kwfU3siS4uwEEBt+A3Yb/UggJpgIPRG4zsEFP30sH5G7OYUFGMKIwzM=" name="重庆卫视－流畅" l="chongqing" geo="11,重庆">
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBaQqdCHYX5RMW+bz+hwzKsW/SpPP0wEkRiskscLmpST/ZEhAAcTceqVMURrqyql9lNsAyXic2JpCiS7uFBJ/Nx4xrwrRTGUZTZfRb/485lFJfJ5dS8J5cTTA5tb9udeNwkJK4F0BnUAny2NVPxKsnrZkIvo/MoBon5c2Tucpzfmvh54aIuFTLC5Tv1Jhyzzc0w=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBaQqdCHYX5RMW+bz+hwzKsW/SpPP0wEkRiskscLmpST/e3avWrGmA985JGs0ZBgiSqbttFIimDpbFERi/Fx3xluyKyd+KaDOsz7g6IKRHuGs51ASUy2/iGyHzqAqtaEtYR11SOnKj+gm6lyJqAtjGIuz2u8Qkm5B6s5d4DVwok1uP5HbZD1tN2J72Q5EkZZjn0=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peD30J981PMf1mKF/fAR7rc2S1Dr/Tersx/9Eci/gKl5gX5wfCiHj2ee6k+7DZbWAAfg==</streamURL>
             <streamURL>RjbQC4pTMWoKdFevR3Ksx6zKZKSKWvn/xiCqzgRfoQWunoztxPJene6XFuRuT7AwIT4OplmEkeOWJ7EYJUn7jM0qHv0nnJa9UfIKIdwdEvm7XO9Op4sJkTURrBpq/IYY</streamURL>
             <streamURL>ij+TwE8rdBP4AK1/8lkCVVtNOXd7fSZGOBkfNiIYC2Q21qN5PhOfB6rVErak7ngVZFYU4h5ctAMrjUY9cz2THg==</streamURL>
@@ -136,7 +135,7 @@
             <streamURL ptag="5">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaH43CyPIvqbc/F92AJ51j87LXsnyboNNkic2pOjkLIL7jehEaIOunXOx9+qzV32U6x91NNjwF1vKCZccpTm036fl62Iqw2PevAxRROLYM8UC2dsNUWvM6EtA63JoEYCzb</streamURL>
             <streamURL>IDO9JWDRx41cBiLaQVVZEO9L2fXDDa+hokn3is2uGeJ+XbwNZ4pLuxjz6O4QNGNu</streamURL>
             <streamURL>3qYmU+XG6EIPB2q0iXYOK/SGoesd+/NnrDBjGzNa3aNVjUEzQSIHULdD8O1vd0FO</streamURL>
-            <streamURL>PhimUTowNSue48pbC76eUjvA3xgNga5CLUwYmVSqp/QdvtJwAeP4X0te3ZL1QYclOAdzN6nboveomRu3I6ArFGTSrBvsoVoWcvAudVJ2+MLlMZ8P/sFE4gjK1KicBVbqqOr9e3wFDAYhfzgy+iKJmVcpxg3pHrL8fM29WkQ86RHBCqae2+N3umRjYTLpE2R5Cxqc+xDnCGY+c1yF9nhO0Q==</streamURL>
+            <streamURL>PhimUTowNSue48pbC76eUjvA3xgNga5CLUwYmVSqp/QdvtJwAeP4X0te3ZL1QYclOAdzN6nboveomRu3I6ArFNdZkmdG1uleBZWmbEM1tEf8E6HZNh/DBjLeeCTZSKoOfmp1D2VTIkcEGKILddHKv5I+ljZVSq4jTqQU34Ub2NhAq8PB4NxBb7ivmtzhITZ+jyfK2xm9IlmP1oU6w5Jftw==</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T0LncexeF288k9r2cg63T4Jz4eW5zXDoYQG4idSUK2A8dI4b14Aua5f1PQEwmt48U8eueqTF4PhpJi96tKjEpHuBXgJ7ADLgmW/o7d8vGH5gOAF0tIPYWT9BZzfpsu7EiQ==</streamURL>
         </SubChannel>
         <SubChannel iconURL="LYoXoUZlvUOiCqxXABP8xp9yMdzV2FJ/Y5XSGtVm/rOrdK7j4wJzOSqWQC8JSgbMFBMTKbtIVYJh2uKnIH+HGQBTXLtBdIKinJIgGfsM5j1zxiq+Ql7OYiCn+TGgVgRA" name="CCTV-中学生">
@@ -148,7 +147,7 @@
     </Channel>
     <Channel name="北京" type="33">
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyP48FnTr6xrf+1PBtnhgmO" name="BTV 新闻" l="btv9" geo="北京">
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBbdKmNzNDmF1m5xrx2lXJ+Gytpx4Iy949K4RanOurbfR1vKIlpM6Vo3ynRZv5JpfAmW7fnKxle3JpD4c4eHRU5O4AnPk+hOOHFgcxLCwKPP7X4ASvQX2h1SDlMoBKChYmP878YQ6GFlAccnTqdTaysUXwGLr0h4X7kkPd2ecOay2qrUr0JBM/l0jjvBtirSgpw=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBbdKmNzNDmF1m5xrx2lXJ+Gytpx4Iy949K4RanOurbfR2FSkG70WqNovP/YDsqGFwqKlCaO5xVN1FU0+gzGNAJpr1rODrYxoYbexdbyXW70W6UxxhNRO2N+pp3h7iRZP2XQvII9Ysv/YXD5R4g/mE3CPjbvHgmtgN8Q+ICYWCRmyyjtxAbfMoUfqzf+uOjL4d8=</streamURL>
             <streamURL>3qYmU+XG6EIPB2q0iXYOK29rdRzkQ68Hozdc+vAijQLiMIe26hFn8QbWbk1brHOj</streamURL>
             <streamURL>IDO9JWDRx41cBiLaQVVZEL37C7qsBey7wsJaiSaLO82tUt+4Q2sii9v6aFE6UIZ6</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peDxFoHunFA64VEruP6ts/ZoNsno80whgR9peWMfSldfU3ssJUuHxsZuWPidWSZom5AQ==</streamURL>
@@ -156,11 +155,11 @@
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyP48FnTr6xrf+1PBtnhgmO" name="BTV 文艺" l="btv2" geo="北京">
             <streamURL>IDO9JWDRx41cBiLaQVVZEH2OzNSspdPUzkxjf4hbWUegY3brCxW+Q2JDlrnQnzSB</streamURL>
             <streamURL>3qYmU+XG6EIPB2q0iXYOKzb+MuGmWRiUrsCNOxfMFPtUdo5V1lHmMeBasbh8okhQ</streamURL>
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBabB0fA83ndaikuO93wVj3Azde1SmOG+oQ2NHN1bBc/c6/G+sS0OQSB+PSf5vhSpcCFRKM5jst75HKfQ3CatWun+FTRusyFr5K/YeCxfY5UZWbY1HeQQBhxdiuYXIKCDyo+zBtFTnT/gyjnXTHgb9uvlBP67nPY3yo/sbYUl0fZmF6HA/eogCyTCqTOyZkh5Oc=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBabB0fA83ndaikuO93wVj3Azde1SmOG+oQ2NHN1bBc/czD/YPBk5//uNXd42n3IB3CqPMHz9/KU8YcWuZ2+gQnOZTEp2sG8NoLgAIk96l+KZ76iCEG23gI+yvQtRrlKrtks0TOG2KjPP8RpL3mTXOIpy8y4RSI5recjphqqc3ccutaHz8Rgf94YJLjItG1HdCU=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peD5wHRXml9ob4PRqKhqiunF+QW+SJZogIeEgJ/5UvWnicqrOnTe12x7Uxq2JvSXyBwA==</streamURL>
         </SubChannel>
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyP48FnTr6xrf+1PBtnhgmO" name="BTV 科教" l="btv3" geo="北京">
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBZg6GA40Zx3tYaoHHVBGHks/eRZZZdiTjmi12uL3EqZMnS6nimoNUcC6uOQATwALH73inTIXl8GyCGW9l3qExx9HJdLOzObu2RphrDjYjzdvH80A5Z3wsgNcTUXzcU0+hZBWjUn/rbOoQ1ZD8oVp1vESzzHqje4+6CfS8Q31xLgl41AhzK/abNrwUXPG7oSs5o=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBZg6GA40Zx3tYaoHHVBGHks/eRZZZdiTjmi12uL3EqZMpj8u2yB2vstk6j6Q4L7WZa6YUYlpKT5tYfp8ZM+SHwqeC6EQlIwN1YGHEYYtPzJL+0e1R4uJLDf14vmQ3gQXJG8hN/FaP3SiMFIgt8zlMxZKHNbqy0tw8WYysZ9QL/HlUuxxoR9w20W1SV6MDwZuSA=</streamURL>
             <streamURL>IDO9JWDRx41cBiLaQVVZEFBRI2kDc7VjTK8HXLn+4fuwUsVqEQoQ0GOxJF8eNhzH</streamURL>
             <streamURL>3qYmU+XG6EIPB2q0iXYOK1W4ii3xO0fMw/OGk2B27gifhQmYJaw3RIBFwDQLWm3w</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peD11kodzRLZ936IW+yf2506ACdj1yHAjIMkQPgEV4KMMNszV43P2FmIUXOCYe+A2O4A==</streamURL>
@@ -168,11 +167,11 @@
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyP48FnTr6xrf+1PBtnhgmO" name="BTV 影视" l="btv4" geo="北京">
             <streamURL>IDO9JWDRx41cBiLaQVVZEPo/kLyiWTWA5fMmnWugrRBOz4Qj0wYsvEsskpwe3Whv</streamURL>
             <streamURL>3qYmU+XG6EIPB2q0iXYOKy0RA4XrRehvHVypMSSHZQ50/kvxrpUA/i/oDvCFFnwg</streamURL>
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBZpDJ8ObBB+d4z7eSbXWLVsuBs8lwoVcDx2KXDUbbhTsDwo633H2Xr7W+77E2MG6Ad67R4yeANcyLjlX8lDGXkTNKxwR9pl5ApKBiyxrM2XFqS2pvHDhZ0R69Yi6iUNJVsN+qGRnx1dKlaXlctg+YIZUZAlFdQmwDrC7G2r3fVPvt3MCMLOHpyarQ4sMEd7cZ0=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBZpDJ8ObBB+d4z7eSbXWLVsuBs8lwoVcDx2KXDUbbhTsDGDm20TBKMPvRGdzzrZjYTd6XXSaG6BASkMjb7/o8By2feEp2sDkQJRFQpznrj+bx14DI8olMUZ8DMY46QMaB/apUMpmWJyWRL1oe2wBxQiKXR6R+xEyO0WNu9kAbWTTB8r+mViPNZxl9rc0amxI+8=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peD0v8sXgvv/A2yioh+7JeYWVg4Hn0Nuq8mKoZ7d1bVx5sOAc+sU1Q8wfT9z9/hNGuUg==</streamURL>
         </SubChannel>
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyP48FnTr6xrf+1PBtnhgmO" name="BTV 财经" l="btv5" geo="北京">
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBa/9gmwCXCAYEZMPoNvNpDbLkSQQgUt0XRJxpaPEJw5Ple24cCKGrlIg3bkfBFABvasr8QOLqkaSmUoQPVCQjY8Hqel6abMqXc0taOMQBmhV4UBVAUkkN5BvpQ6+CDoMOujqHIEe7yHcIXxCL45YPUBo7UEiJXaWW4CDJ21QvhoHs/gM7QqLhGXWEe3eDDOKQI=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBa/9gmwCXCAYEZMPoNvNpDbLkSQQgUt0XRJxpaPEJw5PjBr+DaWxnz6FfQD4cprhTw5rrGrtQ8ec9JxapSqqzEQVhNPwOkpW6ez3aLwx+MojVjIm8t3LAxVKikP45obHqzo2K4Ar3iUUFriNmN1mNRDg4bYo4IGPlfZ4cNnZOVdrSV/mb+iqxXvXbEYNOyfVeg=</streamURL>
             <streamURL>IDO9JWDRx41cBiLaQVVZEI4Fntz06fNYd5tr3tD8FGFSWeCbLd/+eWRvl3Of/ify</streamURL>
             <streamURL>3qYmU+XG6EIPB2q0iXYOK74Sn83SnQAesStpEwbj29YPIJ99PVZcn0usQQdcYZo+</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peD21pIrFKNwsk6LxDQBeLyomMkJ1XAVXnivxdzhZ/ArVGBVBlrpd+tM/XiFMP8ECrjg==</streamURL>
@@ -180,18 +179,18 @@
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyP48FnTr6xrf+1PBtnhgmO" name="BTV 生活" l="btv7" geo="北京">
             <streamURL>IDO9JWDRx41cBiLaQVVZEBDjyho/AUup1CrxsC1kzdU6eu25mfN7ZjM8GhezG/Q9</streamURL>
             <streamURL>3qYmU+XG6EIPB2q0iXYOKwwDRua9qIPYwlfGnpc9vfvqkf4xw5P9aewPVms3kD0w</streamURL>
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBYP0GmV3WXY8Ls+nx1xo0Z9O569j/Ej69AxWlNppDzvHEoARW2u7xrpRzWiEUxEVwf/HlBEMPdDWM9reWkoYIbKVXXPMHh5n/3eqtK1MsmcM832fi+5V4Lc6Oigc/FpePfxbmXsC5qVUCjaDa3zIMxZCTjgGhzKo7y2V2+gc/9ecIn+hFxLy0Yx2m3vHqaR+z0=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBYP0GmV3WXY8Ls+nx1xo0Z9O569j/Ej69AxWlNppDzvHLEzj5vKeZYzQislmb1b4q2zNRSAg04ntkZpGY0QvICZ6CgPK8mKBS6y2xPS47HzVAEJGelFTeqJ8h5I2TVK0w2YyR8pjs64QcT108iGcJGb/cofjlU4ezSQApK1UavkQho4Wh7YI+DETUNLu1xC4Do=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peD4PmheMvxjT6wldO8Lo6vOCFbfNuAkMlGuwNh9BLCI0QM+qZQEj1z7BEJiUBdIqV9A==</streamURL>
         </SubChannel>
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyP48FnTr6xrf+1PBtnhgmO" name="BTV 青年" l="btv8" geo="北京">
             <streamURL>IDO9JWDRx41cBiLaQVVZEOU6Lk5IJLTiPRjj/T5eukL65kQ6cio2llu8rjduakdL</streamURL>
             <streamURL>3qYmU+XG6EIPB2q0iXYOKxZapVJvRSevuL593Eya4yZOFndoXVqW/Qj9BHA5uNh4</streamURL>
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBZ++rUiTTL4b4mhOZFBOU/0z0Edao+kY252MGgSCOCP4e/F38nL7Cd+qoQNUZYeWh0sxHep/GTY38Bafi5iqtQ0Zp0y+hlaOHsBY2JUQiNxK0FeFfk4dLHN00WU2wgc3vILD0oBi+PHToVy1n1BN23XWJKwSFgKbPsnEO6WPi/hELkVguKyumr14015FrlaPcI=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBZ++rUiTTL4b4mhOZFBOU/0z0Edao+kY252MGgSCOCP4dJpx7/Wlfa7A1AGkFvm5Ar6NW92mrkbrTnzbsunIud4ICwgkMk9k2Vjdi9Zb/JntbSD1Ml6FAUeg8G5017L7Wg7IvTn1xlR7LGcJKA1rgf3eEsKTCHq5m0cLwpJElNOdfeBcQfH4oJJJ8v3UZlzgnc=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peD8DMbsILM9gpCxsntgAEhW0aNSQ/YC7xxpFNbmPwMDrskU5BoyUgw9M7jh5ClJPLbw==</streamURL>
         </SubChannel>
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyP48FnTr6xrf+1PBtnhgmO" name="BTV 纪实" geo="北京">
             <streamURL>3qYmU+XG6EIPB2q0iXYOK/XIqFqXKm1JFoD+ZBkhnXDTV0yvO8Spzy41BkaXZlLP</streamURL>
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBZjbSCIPB/8flTXkKjgVV7KUy/vMddCXvAr9tMLpM7FbGSHrk1NJVYSt/O05AjVisn0x2DO24B98OU57lYNfB6DvxDJykVuj/gKDbD02MonR7Mg6+E6G3AEgCB+V9lXNr52+smAfH3a4QJG16FvVNJPW+AMzSmbI4asachttxEBNNUWIdBEtyfN+e8JZ+Bfzuc=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBZjbSCIPB/8flTXkKjgVV7KUy/vMddCXvAr9tMLpM7FbOmyizC7tg8+MytO4i0UGbZIvWt1sNZ/394Ko3I0fjZWArl1tiz1Bc492g0dVT0SYMxkIpeaGCdJiqlxICTg9wn0PddIlbgbESjTsvPBHqAGShUe8vvq31svsdqrDk7GDZ5iufiGzsJqLpKzOEVf6EY=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peDwuau8kilyR3dyuAS15I0zMdggY4cvMh0FRl/Vjz6MREsOM5VGstOOC/xFYR6z7h3g==</streamURL>
         </SubChannel>
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyP48FnTr6xrf+1PBtnhgmO" name="北京时间" geo="北京">
@@ -200,7 +199,7 @@
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yzP/nazK8NRnrgJteiSJImo" name="卡酷动画">
             <streamURL>8meRDwN6XkAU508Eetd9iVqBRSMkXRF97FDev3PiOOvusHwDiASArwJTNgvvMo86poeB6JaR6VEhuSx8KvOglg==</streamURL>
             <streamURL>3qYmU+XG6EIPB2q0iXYOKzR1cJXM9Cd1RQMhWKAV22qLSXp6wtUcapqSXkohcEjk</streamURL>
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBbV+qK9pGvrAFSKLB76kREfxSX0v47/RLXZVVZ/Q4qzsmJBD1dKz1oR+SpN65oO8oNzYbusjwbJ/l/VGnJCS505SR7QM8SQsruNoCOAUyptsT6u2I/awrHoRIQmfKBnNnLPilTNYpLoGldQjYjxwWR9qHEFJhG0lT6FmrikcM55yzxekHxz+iFzESp9a7rk93M=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBbV+qK9pGvrAFSKLB76kREfxSX0v47/RLXZVVZ/Q4qzsvImr3oqrBPZ28wskHlG1msqPMxutKc01Bd1M9WH6NNpdDO4Ryz8ONCgoJBwOq7lSBbc45L/cJGAxfmFaeu2VAJxcI0Gwc+XSYYVVg+9L39ZxVCk5vVub8VtZFsRbdf8UtqUTSfwfLpKL56y487BBGQ=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T6j7R6Io+AcKSDLkF+h2MgsiOjxNmIEBZGLkSGZEBOrhyuRE0uv7PBHnv3acO0peDyZve8cIlphyDKs1MHUxBFtB0DuKiScWvEyBc3uU5r1zORiVdNtQW/k/0+9X3O0GgQ==</streamURL>
         </SubChannel>
         <SubChannel name="中国气象">
@@ -451,6 +450,7 @@
         </SubChannel>
         <SubChannel iconURL="iYIqs43QPuBIsrsKyicXqYlEYfr+iX0IJSHd+BZbCvvK7f9NTluBMLvb/yJ4OvXCTCpHx4Js+tApYr/IKJRTS1Ju4fm/NHcAUPeErxXaHW0=" name="万州影视文艺">
             <streamURL>UpDFOI57yAvC78sA2Vz9zzqgVVQY4qMJZS46Gs6cuv/y+8/3TE2KFcEIaXdXU7psro0fu3Juih4TmSJYVrSDrA==</streamURL>
+            <streamURL>/9ASMdVvUd/tSURrmZaA530zt4vKGtrwkycTJsQtPIMS01IneUGSxTiK2J4+IY8Adkwt61rrWVJCAkHf9C977Q==</streamURL>
         </SubChannel>
         <SubChannel iconURL="iYIqs43QPuBIsrsKyicXqYlEYfr+iX0IJSHd+BZbCvvK7f9NTluBMLvb/yJ4OvXCTCpHx4Js+tApYr/IKJRTS1Ju4fm/NHcAUPeErxXaHW0=" name="万州科教">
             <streamURL>UpDFOI57yAvC78sA2Vz9zzqgVVQY4qMJZS46Gs6cuv/C4HTdWE3iS+txq6Ou9RU+W4EzwB1hI/ZLmwm5dV2LTA==</streamURL>
@@ -721,9 +721,6 @@
         <SubChannel name="电影轮播4" geo="11,12,31,1,3,6,西藏,韩国,美国,英国,82,81">
             <streamURL>adcZ/8gbpgB/TJ2g3fsf+cFJtMaAIwJTqBtPimERSnW08TvWThZf52xkq3smJv/p</streamURL>
         </SubChannel>
-        <SubChannel name="电影轮播5" geo="11,12,31,1,3,6,西藏,韩国,美国,英国,82,81">
-            <streamURL>adcZ/8gbpgB/TJ2g3fsf+cFJtMaAIwJTqBtPimERSnVSoJunwDmQEsanAUlS+IG8</streamURL>
-        </SubChannel>
         <SubChannel name="少儿动画1" geo="11,12,31,1,3,6,西藏,韩国,美国,英国,82,81">
             <streamURL>adcZ/8gbpgB/TJ2g3fsf+dBGdY9nBudmS4pC6588k0akdAWX5vEzszAlJTRbsh3R</streamURL>
         </SubChannel>
@@ -756,6 +753,15 @@
         </SubChannel>
         <SubChannel name="电视剧轮播5" geo="11,12,31,1,3,6,西藏,韩国,美国,英国,82,81">
             <streamURL>adcZ/8gbpgB/TJ2g3fsf+S5QNRkL+IlZp/TxpSZgEurTR/UaQeYHSdiv5tPQmlRH</streamURL>
+        </SubChannel>
+        <SubChannel name="电视剧轮播6" geo="11,12,31,1,3,6,西藏,韩国,美国,英国,82,81">
+            <streamURL>MxlrKNeaq4gwOYKY0f4WShSDOHEkIwKKnilf+aDRhNQ+m2kKGDNgoJXwYmIwrMF1cBJvn9A9AuAwA5Qe0C4P4cz/LzUcdyvmh2sTCDPFHVGN2bqkWUNB0m9W52GbX98E</streamURL>
+        </SubChannel>
+        <SubChannel name="电视剧轮播7" geo="11,12,31,1,3,6,西藏,韩国,美国,英国,82,81">
+            <streamURL>MxlrKNeaq4gwOYKY0f4WShSDOHEkIwKKnilf+aDRhNQ+m2kKGDNgoJXwYmIwrMF1cBJvn9A9AuAwA5Qe0C4P4ciMFhJU+gtXGjD0j1QeJWbJFr7HTuKF10UiSKYJeYKm</streamURL>
+        </SubChannel>
+        <SubChannel name="电视剧轮播8" geo="11,12,31,1,3,6,西藏,韩国,美国,英国,82,81">
+            <streamURL>MxlrKNeaq4gwOYKY0f4WShSDOHEkIwKKnilf+aDRhNQ+m2kKGDNgoJXwYmIwrMF1cBJvn9A9AuAwA5Qe0C4P4QYyWYnTtIhF+0Zn3A5PGMDpEMlqCYdCpAisSMaYJnx4</streamURL>
         </SubChannel>
         <SubChannel name="@TV新闻" geo="11,12,31,1,3,6,西藏,韩国,美国,英国,82,81">
             <streamURL>qCj3/PKhvLa6BFUgry+xRnf94LcVOGtkhGSU4zW+etoJx83MvlG9dnD2qeb3fXsr</streamURL>
@@ -1992,6 +1998,12 @@
         <SubChannel name="宿州三套">
             <streamURL>ScZkFIUrltV/Fy0h/03if/cHUzISU9XH16AIZhr6mDXTMs0xf9hpnqU0hGymr8DW/UsaYENkcuZopKwN9hjDVQ==</streamURL>
         </SubChannel>
+        <SubChannel name="肥西综合">
+            <streamURL>/2SRkDsX0bN4ZWP+RuvFNVldmtZckVq2siwPC5Re8VZ57+D8hNYKBOZFb40lzEBhSGQ1TvOjPBS8/qBCeIPYYw==</streamURL>
+        </SubChannel>
+        <SubChannel name="肥西生活">
+            <streamURL>/2SRkDsX0bN4ZWP+RuvFNVldmtZckVq2siwPC5Re8VbfkCJ3hsjXAexIi3y48+rYhODiZrVouMPsZjnTooSTHQ==</streamURL>
+        </SubChannel>
         <SubChannel name="铜陵新闻">
             <streamURL>Dlt1GTJRNd4KVCSfvlyD8wGXAI/K8kKYAFHLXdNNZFUfrBCG6gJNAeztluCg9ILrbXYkM2wsLvlLu0L9Cwnhhw==</streamURL>
         </SubChannel>
@@ -3014,6 +3026,9 @@
         <SubChannel iconURL="yl+kkUVpfZItgYIpV9Y4c5PRTh/kfAS1mBgWPLyJZ1KTICAPW0p/kwfU3siS4uwEEBt+A3Yb/UggJpgIPRG4zvBxqWuFuv76jVgcKS7jpjw=" name="福建公共">
             <streamURL ptag="3">uLkPwlXhvfRQTxxxW31wK9s5yRLDCGTu3NWrnnxyFa/VKdAs+4qIzDHNHNmM3f79hAUkPNIbKUzFH56PrJvvQQ==</streamURL>
         </SubChannel>
+        <SubChannel iconURL="yl+kkUVpfZItgYIpV9Y4c5PRTh/kfAS1mBgWPLyJZ1KTICAPW0p/kwfU3siS4uwEEBt+A3Yb/UggJpgIPRG4zvBxqWuFuv76jVgcKS7jpjw=" name="福建电视剧">
+            <streamURL>1EyLYGuk6ObMGfFHpBo8DpcPSNSaHRkjy9H9iWOAxgy6vcDxM/jO0Xto7JRn9/rSvehBHj51Wn9cTB3doNxZE8eqG22FDsvSxBvrFlp0/6k=</streamURL>
+        </SubChannel>
         <SubChannel iconURL="Yi2MuP5wZjcsfb4qHnwz2cOlP9UpJQTw56/lxFtawXSHc9WBUfJFNxy0h1fKM5HvCSQF3B8ww7tTkK0Z0SD/rg==" name="厦门卫视" geo="北京">
             <streamURL>N27CTs+lamcXd42ant6w9wqp5du6eYH1KuLwmtborVM0KAn2or0TfOccMIPzYGUrwLx4nyy7yZWukZEMwTz4kg==</streamURL>
             <streamURL>XE4ZdOl4CcFVStYNV8LgIkTv8HL72QHjsnyOqAxObBxTq3tiUXnc094166q0mw8m0pVMLrFc7M3pSYQgaKtNkQ==</streamURL>
@@ -3045,6 +3060,7 @@
         <SubChannel name="福州影视">
             <streamURL>sbLrPA+B5y/Q/BpXCTZ2VTK/KIqjdpeUO8c2Z43SYTgDuvcSgKd9VwZ5bMN37pqD</streamURL>
             <streamURL>KInf/ykN/eGOE/jqM83+1usifWEo8YXTU0A/l3lW/dXxw97GhY1EtpK92/SJMAw1PjIe/CoGgoIOkgbmpuTa9g==</streamURL>
+            <streamURL>EBD++WGwq/8i3gtQ8KMPiVHBbwNGOioDKtpYW62s4QADnpGYOrbGkLLGbhvEg24BuJrYeqpzyXKM/aW5LMgEoQ==</streamURL>
         </SubChannel>
         <SubChannel name="福州生活">
             <streamURL>sbLrPA+B5y/Q/BpXCTZ2VTK/KIqjdpeUO8c2Z43SYTjStejEjxd1pK3IYzgB7vEf</streamURL>
@@ -3117,6 +3133,9 @@
         </SubChannel>
         <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyJKotVDpffS7fQpj3bCw68kRYHu+Qfwub6VzZiIJBevQ==" name="吉林生活" geo="北京">
             <streamURL ptag="3">pu20hNTyHLgA2+7v8dSXbDf/zzsJKfk2Hb3ywheUElmNTJSa8IJ09zKZry+l+dFL2BkU3b/IwUB1cexY4VpFmQ==</streamURL>
+        </SubChannel>
+        <SubChannel iconURL="tHM85qotxc+ZK/AHEPXxhv7cLpQkMzCTGuRx54pi1yyJKotVDpffS7fQpj3bCw68kRYHu+Qfwub6VzZiIJBevQ==" name="吉林影视">
+            <streamURL>bttqf+C8qn+I0/xvC3tHxOdCulkY+/9jnFOnpZy7hG0uGBuLablln6CwEkSIQXfoWUDUZIR6DCD8X9q/vZ4aLwwjLmxCCxDpmf3nLHucDmE=</streamURL>
         </SubChannel>
         <SubChannel name="吉林教育">
             <streamURL>CP/2GibqUro8ldzK9HrWP5jdBmbGpMyWl5iJU/EwzWe1Fr3ocQfbSBXbg7YA+JyutNcFJugPuZikTJ4vpQTULmSUtCADL9JmD2uUlLBP71c=</streamURL>
@@ -3840,7 +3859,7 @@
     </Channel>
     <Channel name="贵州" type="33">
         <SubChannel iconURL="yl+kkUVpfZItgYIpV9Y4c5PRTh/kfAS1mBgWPLyJZ1KTICAPW0p/kwfU3siS4uwEEBt+A3Yb/UggJpgIPRG4znlvR9fJBip7N39bA0Uddcw=" name="贵州卫视－普清" geo="北京">
-            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBZvTY2+BcdlfZYmkbXv20LRzNhxjEunhw3byP+2mFeLosqgblLzcoutFIAfS69xlXA0a70uWoI+Etfi1PvX1NenH6XwXwtSRvLglyasFglrOuIG4ueXA/cWY+hwQLaKt6FnC0xW8t+cQ8/OTlKMlWyTRPL4BRha9/7+q4OKOQU/nAXwynU4xTchaK+BplHwHGw=</streamURL>
+            <streamURL>mvmSCf1GNR8w75+Bm0pl1WcbCpw1m66Ii/eUaKhuvBZvTY2+BcdlfZYmkbXv20LRzNhxjEunhw3byP+2mFeLovGA/5mg3jRE/yJiYEeKDLEaG4mAdbIxTY7LSWppMxbQKkTI8tJEmgBw43zDC5d/qMA1WRaJX4kMHpYdu7YtA5TtIX5tukHtLT3SUzZOO/Dg3wEBkqyaZOnTtRIVip0ynaoQCi7yijDUZ4/uzNQ64QE=</streamURL>
             <streamURL ptag="3">2naiLIfQEou4wcSU40zJcpCIByGImPs9VwCtygFJqssaUNOFO1stcTudCmkgOyR8lIg5WSuEk+Kde9zJ3Xf1T0tucU2cGSu6AOWubslzCSoYN/vj8xdKqhM6qMWLsUUQ5IJdXandL04IVYPvax2CdKHZwhSNcWBDnbswaKj+nyy8t9Ntc6Ozn9yu01ia2lyNkFu7jWoNbc2Tu6CbbloirQ==</streamURL>
             <streamURL>hrOdhzdxo01tOmq3WnMUiqWO1cDeGljmD2b/GXPSHhX+RvJXbzPWgGZAMF2ySplb2hvgqXyUr6VMmO0WHwFItw==</streamURL>
             <streamURL ptag="3">yf+iSgyZcXPHXby2k1G+NXbjZORNS60hdG1ZlofgOUrkui4pqNuhjD8pry+Q7FcaUfWPBIkq1eSF11mU2NWXvMLRPKokWXGxvYPgXXbsAYM=</streamURL>
@@ -4499,6 +4518,12 @@
         <SubChannel name="寰宇新闻2台" geo="11,12,31,2,44,3,6,81,82,美国">
             <streamURL>3eHA6o1aH2QOMxbW2zhRVqPQCO8/qNnxrECg7cKjyWwr+oEg20xvyCfqRcmfGeD1Su4dy7Y8YPaySif2EUmftA==</streamURL>
         </SubChannel>
+        <SubChannel name="澳门体育" geo="11,12,31,2,44,3,6,81,82,美国">
+            <streamURL>mus6Izc53MAm9t4trxsbDHr7LgxxoSBEFrnNFHBgwx4nggk0dA/XtI82jhgZc1kp/lglm9YxGE5oU/t+De5rFJJUhXbRWrg0S30OnDT417E=</streamURL>
+        </SubChannel>
+        <SubChannel name="澳门资讯" geo="11,12,31,2,44,3,6,81,82,美国">
+            <streamURL>mus6Izc53MAm9t4trxsbDHOvO4Uq9Wbgk/LH5oQbdqHMfG/ZLJrGclXWHnYncIYQgNaf4ARaQrOH2fxXyIceQA==</streamURL>
+        </SubChannel>
         <SubChannel name="美NGCI" geo="11,12,31,2,44,3,6,81,82,美国">
             <streamURL>Y1zV4L/aesCu3UvtPnHYoYWzrCZrcCjelf2mP/bQTNyrFZBv+WFkjyFTl/b2GVowhGrkO/IdpX5U2onDyh/H1Q==</streamURL>
         </SubChannel>
@@ -4508,6 +4533,18 @@
         <!--
          <SubChannel name="美TNT" geo="11,12,31,2,44,3,6,81,82,美国">
          <streamURL>qbZfnrheYpLLKlBREIXhg4wFS+46C4DoIkVLpZ72hFCOBMaCr/m5Jv2UWIkneIqZRuwACgaHCjdvz9VffNBPmw==</streamURL>
+         </SubChannel>
+         <SubChannel name="美CBN nwes" geo="11,12,31,2,44,3,6,81,82,美国">
+         <streamURL>9yB1v4f4LrSKBOT3i7KgZr4qBGN25//9rsEsBqqXhK19dEvFh8yGzuVSCyAYpviLzsQ7fFZ5qdygAzbNvyiYIg==</streamURL>
+         </SubChannel>
+         <SubChannel name="美Newsmax TV" geo="11,12,31,2,44,3,6,81,82,美国">
+         <streamURL>OTGWr+PC/sHnXJpKtOUfPdKRzftwNqungfPrw8BSpALbxiNj2w1y9Y+/OkaKWYn7vJD8RXBBw63qx+/aaxmNrQ==</streamURL>
+         </SubChannel>
+         <SubChannel name="美CBN" geo="11,12,31,2,44,3,6,81,82,美国">
+         <streamURL>9yB1v4f4LrSKBOT3i7KgZr4qBGN25//9rsEsBqqXhK3uqkbHLT1tkqBetAllT0CYJuhdP1XY3NqjJ4cjAJ6q0Q==</streamURL>
+         </SubChannel>
+         <SubChannel name="美MSNBC" geo="11,12,31,2,44,3,6,81,82,美国">
+         <streamURL>4hHydxHzMy3bsX+KhjtprXtxcI6BEzEl08lKcQWUCcsb5DIDjNM/yqXG8iwPQxb9CGt5f6ppXkI1v0zHJn8lVw==</streamURL>
          </SubChannel>
          -->
         <SubChannel name="日History" geo="11,12,31,1,3,6,81,日本">
@@ -4551,6 +4588,9 @@
         <SubChannel name="Freeview28" geo="11,12,31,2,44,3,6,81,82,新西兰">
             <streamURL>EtG0IZD/mgOorwKd2/owZFuzmi5L75ybOT6qRHBRr4ug/cXMbvUBCUGzmNXfm0gxlH+SLMCfZcqCR1s0rhNm4A==</streamURL>
         </SubChannel>
+        <SubChannel name="Silence TV" geo="11,12,31,2,44,3,6,81,82,美国">
+            <streamURL>K+Dqmb6+yO+Znb/RMGm/qcY2CTj44YE3/xFAvPlAl4P3WzvW6Xv7W2k427BR4qNYiuTZZhh6gt10SavwZWC3Fg==</streamURL>
+        </SubChannel>
         <!--
          <SubChannel name="Al Jazeera" geo="11,12,31,2,44,3,6,81,82,美国">
          <streamURL>b1G9UEila+eM5GoZV9wPdoxSyHRjXzi842w0m4P3eiyf1dUZvL6UldPu8LJ1PQ+XEac3ddB1h6ZNpRksL0qvwpQ2T70sX48D4pXOnO6aA2dKH3EH/Y+0c0a8Rbf0ik5N</streamURL>
@@ -4564,7 +4604,7 @@
             <streamURL ptag="3">QQ4jqDIEIgisZ7JdGU2vxKVIkECYHW+S4izbD2OLTMFzsJjAWaNLiSy3STp/5vUZvzbXLCMj+wfw1raQRcgFOyp6CYr59drCQOQg82+XeDU=</streamURL>
             <streamURL>1eflJFQdpzScMsF/W0MYRYKeetitfS9p6DYJaBjt1t5FU9JwuuzgXNQ9SplPz5y3</streamURL>
         </SubChannel>
-        <SubChannel name="生命电视5" geo="11,12,31,2,44,6,81,82">
+        <SubChannel name="生命电视2" geo="11,12,31,2,44,6,81,82">
             <streamURL>vezkUgwOfHApeHuDN0qUTc3eErb86WoWiNE4Ud5EGhvjtoTxIYU/HzmeyDOSLvkSturU5ANsXujUCP3AjF+7dya19ThRXmjC1UitaYfwIjXtcoizVRNdQAOlNg/cScTAxT5jMf3Lx7G7LrZrEq92aljHvijWFsuiWPniYiAMa/s=</streamURL>
         </SubChannel>
     </Channel>
