@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<SearchEngines version="1.8.3" isValid="0">
+<SearchEngines version="1.8.7" isValid="0">
     
     <SearchEngine Name="cntvtvtvtv">
         <GetMode>0</GetMode>
@@ -616,7 +616,7 @@
                              <Value>playurl":"</Value>
                          </PrefixChekerStr>
                          <SuffixChekerStr>
-                             <Value>"</Value>
+                             <Value>","</Value>
                          </SuffixChekerStr>
                          <TargetURLTemplate>
                              <Value>%@</Value>
@@ -717,6 +717,86 @@
                          </PrefixChekerStr>
                          <SuffixChekerStr>
                              <Value>","</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="MGTVCOM">
+             <OriURL>
+                 <IDCheckerStr value="mgtv.com"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>url":"</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>"</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="HNNTVCN">
+             <OriURL>
+                 <IDCheckerStr value="hnntv.cn"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>" src="</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>"</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="HNTVTV">
+             <OriURL>
+                 <IDCheckerStr value="hntv.tv"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>" src="</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>"</Value>
+                         </SuffixChekerStr>
+                         <TargetURLTemplate>
+                             <Value>%@</Value>
+                         </TargetURLTemplate>
+                     </Tyies>
+                 </Reponse>
+             </ReponseHandler>
+         </VideoUrlConvert>
+         <VideoUrlConvert Name="HAOQUNET">
+             <OriURL>
+                 <IDCheckerStr value="haoqu.net"/>
+             </OriURL>
+             <ReponseHandler>
+                 <Reponse dataType="STRING" encode="NSUTF8StringEncoding">
+                     <Tyies>
+                         <PrefixChekerStr>
+                             <Value>('</Value>
+                         </PrefixChekerStr>
+                         <SuffixChekerStr>
+                             <Value>')</Value>
                          </SuffixChekerStr>
                          <TargetURLTemplate>
                              <Value>%@</Value>
